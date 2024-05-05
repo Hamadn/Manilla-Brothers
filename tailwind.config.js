@@ -9,12 +9,21 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1170px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
     },
     fontFamily: {
       stalinist: ["Stalinist One", "sans-serif"],
@@ -38,12 +47,14 @@ module.exports = {
       },
       colors: {
         mainRed: "#FD2611",
+        darkRed: "#411616",
+        primaryBg: "#FABA19",
         mainBlue: "#4066B9",
         darkBlue: "#15151B",
         navyBlue: "#0C0C18",
+        lightBlue: "#23232E",
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
 };
-
