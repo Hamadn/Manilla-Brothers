@@ -28,7 +28,7 @@ const Footer = () => {
               <ul className="mt-[25px] flex gap-6">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/mbworkzgarage"
                     rel="noreferrer"
                     target="_blank"
                     className="text-white transition hover:opacity-75"
@@ -138,7 +138,7 @@ const Footer = () => {
                       href="#"
                       className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      <Phone className="mr-3" /> 052 304 1850{" "}
+                      <Phone className="mr-8" /> 052 304 1850{" "}
                     </a>
                   </li>
 
@@ -148,7 +148,7 @@ const Footer = () => {
                       className="flex text-white font-lexendDeca text-[1.1rem] transition hover:opacity-75"
                     >
                       {" "}
-                      <Mail className="mr-3" /> mnlabrosauto@gmail.com{" "}
+                      <Mail className="mr-8" /> mnlabrosauto@gmail.com{" "}
                     </a>
                   </li>
 
@@ -157,7 +157,7 @@ const Footer = () => {
                       href="#"
                       className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      <Clock9 className="mr-3" /> Monday-Sunday: 8-AM - 8PM{" "}
+                      <Clock9 className="mr-8" /> Monday-Sunday: 8-AM - 8PM{" "}
                       <br /> Friday: Closed{" "}
                     </a>
                   </li>
@@ -167,7 +167,7 @@ const Footer = () => {
                       href="#"
                       className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      <MapPin className="mr-3" /> Warehouse No. 2 21st Street -
+                      <MapPin className="mr-9" /> Warehouse No. 2 21st Street -
                       Al <br /> Qusais Industrial Area - Al
                       <br />
                       Qusais Industrial Area 1 - Dubai{" "}
@@ -186,7 +186,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-[1rem] font-daysOne text-white text-center bg-darkRed w-full h-[76px] flex justify-center items-center">
-          &copy; 2024. Manila Brothers Autoworks Filipino Garage. All rights
+          Copyright &copy; 2024. Manila Brothers Autoworks Filipino Garage. All rights
           reserved.
         </p>
       </footer>

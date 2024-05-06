@@ -16,12 +16,12 @@ const Header = () => {
   return (
     <div className="relative w-full bg-darkBlue shadow-darkBlue shadow-lg">
       <div className="mx-auto flex max-w-[120rem] items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
-        <div className="inline-flex items-center space-x-2">
+        <div className="inline-flex items-center space-x-2 ml-20">
           <span className="w-[90px] h-[90px] relative top-4 after:shadow-darkBlue after:shadow-lg after:bg-darkBlue after:absolute after:p-[54px] after:-right-2.5 after:-top-0.5 after:rounded-full z-20 after:-z-10">
             <img src={logoImg} alt="logo" />
           </span>
-          <span className="font-stalinist text-white text-[16px] first-line:text-[24px] pl-2 leading-1 items-end">
-            Manila <br /> Brothers
+          <span className="font-stalinist text-white text-[19px] first-line:text-[28px] pl-2 pt-4 leading-[0.9] items-end">
+            Manila <br  /> Brothers
           </span>
         </div>
         <div className="hidden grow items-start lg:flex justify-end">
@@ -135,7 +135,7 @@ const Header = () => {
                       <img src={logoImg} alt="logo" />
                     </span>
                     <span className="font-stalinist text-white">
-                      Manilla <br /> Brothers
+                      Manila <br /> Brothers
                     </span>
                   </div>
                   <div className="-mr-2">
