@@ -5,8 +5,32 @@ import bookBackground from "../../images/bookBackground.png";
 import rectangle from "../../images/rectangle.svg";
 import { DatePickerDemo } from "../../ui/datePicker";
 import { Textarea } from "@/components/ui/textarea";
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 
 export default function ReservationPage() {
+
+  const titleRef = useRef(null);
+  const rectangle1Ref = useRef(null);
+  const rectangle2Ref = useRef(null);
+
+  useEffect(() => {
+    const titleAnim = gsap.timeline();
+    titleAnim.fromTo(titleRef.current, 
+        {scale: 0.5, opacity: 0 },
+        {scale: 1, opacity: 1, duration: 2, ease: 'expo.inOut' },);
+
+    const rect1Anim = gsap.timeline();
+      rect1Anim.fromTo(rectangle1Ref.current, 
+        {x: '-100%', opacity: 0 },
+        {x: 0, opacity: 1, duration: 2, ease: 'expo.inOut' },); 
+
+    const rect2Anim = gsap.timeline();
+      rect2Anim.fromTo(rectangle2Ref.current, 
+        {x: '100%', opacity: 0 },
+        {x: 0, opacity: 1, duration: 2, ease: 'expo.inOut' },); 
+  }, []);
+
   return (
     <>
       <div className="flex flex-col">
@@ -18,13 +42,13 @@ export default function ReservationPage() {
           />
           <div className="absolute bg-[rgba(21,21,27,0.80)] h-[275px] md:h-[312px] lg:h-[375px] w-full flex flex-row justify-center items-center">
             <span>
-              <img src={rectangle} alt="rectangle" className="-scale-x-100" />
+              <img ref={rectangle1Ref} src={rectangle} alt="rectangle" className="-scale-x-100" />
             </span>
-            <span className="text-5xl text-white uppercase font-daysOne mx-5">
+            <span ref={titleRef} className="text-5xl text-white uppercase font-daysOne mx-5">
               Bookings
             </span>
             <span>
-              <img src={rectangle} alt="rectangle" />
+              <img  ref={rectangle2Ref} src={rectangle} alt="rectangle" />
             </span>
           </div>
         </div>
