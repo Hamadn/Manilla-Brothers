@@ -41,6 +41,9 @@ module.exports = {
           to: { height: "0" },
         },
       },
+      backgroundImage: {
+        "contact-pattern": "url('./src/components/images/mechanic.png')",
+      },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
@@ -53,6 +56,7 @@ module.exports = {
         darkBlue: "#15151B",
         navyBlue: "#0C0C18",
         lightBlue: "#23232E",
+        rgbaRed: "rgba(65, 22, 22, 0.9)",
       },
     },
   },
