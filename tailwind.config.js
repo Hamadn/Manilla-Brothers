@@ -59,8 +59,10 @@ module.exports = {
         rgbaRed: "rgba(65, 22, 22, 0.9)",
       },
       boxShadow: {
-        'bottom': '0 4px 6px -1px #FD2611, 0 2px 4px -1px #FD2611',
-        'blue': '0 0px 7px 0px #74BCFF',
+        'bottomRedNeon': '0 4px 6px -1px #FD2611, 0 2px 4px -1px #FD2611',
+        'blueShadow': '0 0px 7px 0px #74BCFF',
+        'yellowShadow': '0 0px 0px 0px #FABA19',
+        'yellowShadowHOver': '0 0px 26px 0px #FABA19',
       },
     },
   },

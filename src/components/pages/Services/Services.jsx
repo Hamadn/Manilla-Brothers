@@ -1,12 +1,14 @@
 import rectangleBlue from "../../images/rectangleBlue.svg";
+import phoneIcon from "../../images/phoneIcon.svg";
 import mechanicImg from "../../images/mechanic.png";
 import { Img } from "../../Img";
+import { Button } from "../../Button";
 
 function Services() {
   return (
   <>
     {/*promotions section*/}
-    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed shadow-bottom py-16"> 
+    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed shadow-bottomRedNeon py-16"> 
       <div className="w-full flex flex-row justify-center items-center mt-[120px] md:mt-[0px]">  {/*title container*/}
         <span>
           <img
@@ -167,7 +169,7 @@ function Services() {
       <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 mt-10"> {/*services container*/}
         
         {/*painting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -184,7 +186,7 @@ function Services() {
         </div>
 
         {/*denting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -201,7 +203,7 @@ function Services() {
         </div>
 
         {/*mechanical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -218,7 +220,7 @@ function Services() {
         </div>
 
         {/*electrical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -235,7 +237,7 @@ function Services() {
         </div>
 
         {/*ac works*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -252,7 +254,7 @@ function Services() {
         </div>
 
         {/*computer diagnostics*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -269,7 +271,7 @@ function Services() {
         </div>
 
         {/*gear specialist*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blue"> 
+        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
 
           <Img
             src={mechanicImg}
@@ -285,6 +287,15 @@ function Services() {
 
         </div>
       </div>
+
+      <Button 
+        size="md" 
+        className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 shadow-yellowShadow transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-yellowShadowHOver">
+          <span className=" mr-5">
+            <img src={phoneIcon} alt="phone"/>
+          </span>
+          BOOK AN APPOINTMENT NOW
+      </Button>
     </div>
     
     
