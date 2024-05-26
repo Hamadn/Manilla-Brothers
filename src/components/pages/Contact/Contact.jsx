@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 function Contact() {
   return (
     <>
-      <div className="min-h-[100vh] bg-contact-pattern bg-cover w-full bg-rgbaRed">
+      <div className="min-h-[100vh] bg-contact-pattern bg-cover w-full">
         <div className="flex w-full flex-col md:gap-20 md:p-20 lg:flex-row bg-rgbaRed justify-center lg:mx-auto min-h-[100vh]">
           <div className="flex w-full max-w-[120rem] flex-col p-5 lg:justify-center min-h-[100vh]">
             <div className="flex justify-center text-center">

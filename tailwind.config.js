@@ -31,6 +31,26 @@ module.exports = {
       lexendDeca: ["Lexend Deca", "sans-serif"],
     },
     extend: {
+      boxShadow: {
+        glow: [
+          "0 0 2px #faba19",
+          "inset 0 0 2px #faba19",
+          "0 0 5px #faba19",
+          "0 0 10px #faba19",
+          "0 0 20px #faba19",
+        ],
+        glowRed: [
+          "0 0 2px #fd2611",
+          "inset 0 0 2px #fd2611",
+          "0 0 5px #fd2611",
+          "0 0 10px #fd2611",
+          "0 0 20px #fd2611",
+        ],
+      },
+      dropShadow: {
+        neonWhite: ["0 0 1.5rem #ffffff"],
+        neonRed: ["0 0 1.5rem #FD2611"],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -43,6 +63,8 @@ module.exports = {
       },
       backgroundImage: {
         "contact-pattern": "url('./src/components/images/mechanic.png')",
+        "home-pattern": "url('./src/components/images/Homepage Image.png')",
+        "casa-pattern": "url('./src/components/images/casa.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -57,6 +79,8 @@ module.exports = {
         navyBlue: "#0C0C18",
         lightBlue: "#23232E",
         rgbaRed: "rgba(65, 22, 22, 0.9)",
+        rgbaBlack: "rgba(0, 0, 0, 0.8)",
+        Black: "#07070F",
       },
       boxShadow: {
         'bottomRedNeon': '0 4px 6px -1px #FD2611, 0 2px 4px -1px #FD2611',
