@@ -8,7 +8,7 @@ function Services() {
   return (
   <>
     {/*promotions section*/}
-    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed shadow-bottomRedNeon py-16"> 
+    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed drop-shadow-neonRed py-16"> 
       <div className="w-full flex flex-row justify-center items-center mt-[120px] md:mt-[0px]">  {/*title container*/}
         <span>
           <img
@@ -17,7 +17,7 @@ function Services() {
             className="-scale-x-100"
           />
         </span>
-        <span className="text-2xl text-white uppercase font-daysOne mx-1 neon-text"> {/*title text*/}
+        <span className="text-2xl text-mainBlue uppercase font-daysOne mx-1"> {/*title text*/}
           Promotions
         </span>
         <span>
@@ -169,7 +169,7 @@ function Services() {
       <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 mt-10"> {/*services container*/}
         
         {/*painting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -186,7 +186,7 @@ function Services() {
         </div>
 
         {/*denting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -203,7 +203,7 @@ function Services() {
         </div>
 
         {/*mechanical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -220,7 +220,7 @@ function Services() {
         </div>
 
         {/*electrical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -237,7 +237,7 @@ function Services() {
         </div>
 
         {/*ac works*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -254,7 +254,7 @@ function Services() {
         </div>
 
         {/*computer diagnostics*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -271,7 +271,7 @@ function Services() {
         </div>
 
         {/*gear specialist*/}
-        <div className="flex w-[400px] flex-row justify-center items-center shadow-blueShadow"> 
+        <div className="flex w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -290,7 +290,7 @@ function Services() {
 
       <Button 
         size="md" 
-        className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 shadow-yellowShadow transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-yellowShadowHOver">
+        className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 shadow-glow transition-all duration-500 ease-in-out hover:scale-[1.06]">
           <span className=" mr-5">
             <img src={phoneIcon} alt="phone"/>
           </span>

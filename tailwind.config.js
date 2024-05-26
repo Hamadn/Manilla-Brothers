@@ -82,21 +82,7 @@ module.exports = {
         rgbaBlack: "rgba(0, 0, 0, 0.8)",
         Black: "#07070F",
       },
-      boxShadow: {
-        'bottomRedNeon': '0 4px 6px -1px #FD2611, 0 2px 4px -1px #FD2611',
-        'blueShadow': '0 0px 7px 0px #74BCFF',
-        'yellowShadow': '0 0px 0px 0px #FABA19',
-        'yellowShadowHOver': '0 0px 26px 0px #FABA19',
-      },
     },
   },
-  plugins: [require("tailwindcss-animate"),
-  function ({ addUtilities }) {
-    addUtilities({
-      '.neon-text': {
-        textShadow: '0 0 10px #1c92d2, 0 0 12px #1c92d2',
-      },
-    });
-  },
-  ],
+  plugins: [require("tailwindcss-animate"),],
 };
