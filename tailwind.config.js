@@ -60,6 +60,7 @@ module.exports = {
       },
       boxShadow: {
         'bottom': '0 4px 6px -1px #FD2611, 0 2px 4px -1px #FD2611',
+        'blue': '0 0px 7px 0px #74BCFF',
       },
     },
   },
