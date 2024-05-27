@@ -8,29 +8,34 @@ function Services() {
   return (
   <>
     {/*promotions section*/}
-    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed drop-shadow-neonRed py-16"> 
-      <div className="w-full flex flex-row justify-center items-center mt-[120px] md:mt-[0px]">  {/*title container*/}
+    <div className="bg-navyBlue flex flex-col justify-center items-center border-b-2 border-mainRed drop-shadow-neonRed py-24"> 
+      <div className="w-full flex flex-row justify-center items-center">  {/*title container*/}
         <span>
           <img
             src={rectangleBlue}
             alt="rectangle"
-            className="-scale-x-100"
+            className="-scale-x-100 w-[120px]"
           />
         </span>
-        <span className="text-2xl text-mainBlue uppercase font-daysOne mx-1"> {/*title text*/}
+        <span className="text-lg lg:text-2xl text-mainBlue uppercase font-daysOne mx-1"> {/*title text*/}
           Promotions
         </span>
         <span>
-          <img src={rectangleBlue} alt="rectangle" />
+          <img 
+            src={rectangleBlue} 
+            alt="rectangle" 
+            className=" w-[120px]"
+            />
+          
         </span>
       </div>
 
-      <span className="text-5xl text-white uppercase font-daysOne text-center mt-5"> {/*description text*/}
+      <span className="text-2xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5"> {/*description text*/}
         DRIVE INTO IRRESISTIBLE PROMOS!
       </span>
       
-      <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 mt-10"> {/*promo container*/}
-        <div className="flex w-[400px] relative">
+      <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10"> {/*promo container*/}
+        <div className="flex w-[400px] xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -48,7 +53,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="flex w-[400px] relative">
+        <div className="flex w-[400px] xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -66,7 +71,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="flex w-[400px] relative">
+        <div className="flex w-[400px xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -84,7 +89,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="flex w-[400px] relative">
+        <div className="hidden lg:flex w-[400px] xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -102,7 +107,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="flex w-[400px] relative">
+        <div className="hidden lg:flex w-[400px] xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -120,7 +125,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="flex w-[400px] relative">
+        <div className="hidden lg:flex w-[400px] xl:w-[370px] 2xl:w-[400px] relative">
           <Img
             src={mechanicImg}
             alt="mechanic"
@@ -142,34 +147,44 @@ function Services() {
 
     {/*services section*/}
     <div className="flex flex-col justify-center items-center py-16">
-      <div className="w-full flex flex-row justify-center items-center mt-[120px] md:mt-0">  {/*title container*/}
+      <div className="w-full flex flex-row justify-center items-center">  {/*title container*/}
         <span>
           <img
             src={rectangleBlue}
             alt="rectangle"
-            className="-scale-x-100"
+            className="-scale-x-100 w-[120px]"
           />
         </span>
-        <span className="text-2xl text-mainBlue uppercase font-daysOne mx-1"> {/*title text*/}
+        <span className="text-lg lg:text-2xl text-mainBlue uppercase font-daysOne mx-1"> {/*title text*/}
           Services
         </span>
         <span>
-          <img src={rectangleBlue} alt="rectangle" />
+          <img 
+            src={rectangleBlue} 
+            alt="rectangle" 
+            className="w-[120px]"
+            />
         </span>
       </div>
 
-      <span className="text-5xl text-black uppercase font-daysOne text-center mt-5"> {/*description text*/}
+      <span className="text-2xl lg:text-5xl text-black uppercase font-daysOne text-center mt-1 lg:mt-5"> {/*description text*/}
         MANILA BROTHER’S SPECIALTIES
       </span>
 
-      <span className="text-sm text-black uppercase font-lexendDeca text-center mt-5 spacing" style={{ wordSpacing: '0.8rem' }}> {/*description text*/}
+      <span className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5 spacing" 
+            style={{
+              wordSpacing: '0.4rem',
+              '@media (min-width:   )': { wordSpacing: '0.8rem' },
+              '@media (min-width: 1024px)': { wordSpacing: '1rem' }
+            }}> 
         PAINTING  DENTING MECHANICAL ELECTRICAL A/C WORKS COMPUTER DIAGNOSTICS GEAR SPECIALISTS
       </span>
-
-      <div className="flex flex-wrap justify-center gap-x-10 gap-y-12 mt-10"> {/*services container*/}
+      
+       {/*services container*/}
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-8 lg:gap-x-10 lg:gap-y-12 xl:gap-x-8 xl:gap-y-10 2xl:gap-x-10 2xl:gap-y-12  mt-7 lg:mt-10">
         
         {/*painting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -178,7 +193,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Painting
             </span>
           </div>
@@ -186,7 +201,7 @@ function Services() {
         </div>
 
         {/*denting*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -195,7 +210,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Denting
             </span>
           </div>
@@ -203,7 +218,7 @@ function Services() {
         </div>
 
         {/*mechanical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -212,7 +227,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Mechanical
             </span>
           </div>
@@ -220,7 +235,7 @@ function Services() {
         </div>
 
         {/*electrical*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -229,7 +244,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Electrical
             </span>
           </div>
@@ -237,7 +252,7 @@ function Services() {
         </div>
 
         {/*ac works*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -246,7 +261,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               A/C works
             </span>
           </div>
@@ -254,7 +269,7 @@ function Services() {
         </div>
 
         {/*computer diagnostics*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -263,7 +278,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center"> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Computer Diagnostics
             </span>
           </div>
@@ -271,7 +286,7 @@ function Services() {
         </div>
 
         {/*gear specialist*/}
-        <div className="flex w-[400px] flex-row justify-center items-center "> 
+        <div className="flex w-[260px] lg:w-[400px] xl:w-[360px] 2xl:w-[400px] flex-row justify-center items-center "> 
 
           <Img
             src={mechanicImg}
@@ -280,7 +295,7 @@ function Services() {
           />
 
           <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center "> {/*text container*/}
-            <span className="text-2xl text-white font-daysOne px-10 py-2 ">
+            <span className="text-sm lg:text-2xl text-white font-daysOne px-6 lg:px-10 py-2 ">
               Gear Specialist
             </span>
           </div>
@@ -288,9 +303,9 @@ function Services() {
         </div>
       </div>
 
-      <Button 
+      <Button   
         size="md" 
-        className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 shadow-glow transition-all duration-500 ease-in-out hover:scale-[1.06]">
+        className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-glow ">
           <span className=" mr-5">
             <img src={phoneIcon} alt="phone"/>
           </span>
