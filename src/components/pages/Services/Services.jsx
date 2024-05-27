@@ -171,12 +171,7 @@ function Services() {
         MANILA BROTHER’S SPECIALTIES
       </span>
 
-      <span className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5 spacing" 
-            style={{
-              wordSpacing: '0.4rem',
-              '@media (min-width:   )': { wordSpacing: '0.8rem' },
-              '@media (min-width: 1024px)': { wordSpacing: '1rem' }
-            }}> 
+      <span className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5" style={{wordSpacing: '0.16rem'}}> 
         PAINTING  DENTING MECHANICAL ELECTRICAL A/C WORKS COMPUTER DIAGNOSTICS GEAR SPECIALISTS
       </span>
       
