@@ -15,6 +15,7 @@ import Bookings from "./components/pages/Bookings/Bookings";
 import Services from "./components/pages/Services/Services";
 import Login from "./components/pages/Login/Login";
 import Forum from "./components/pages/Forum/Forum";
+import Gallery from "./components/pages/Gallery/Gallery.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route path="/services" element={<Services />} />
       <Route path="/login" element={<Login />} />
       <Route path="/forum" element={<Forum />} />
+      <Route path="/gallery" element={<Gallery />} />
     </Route>,
   ),
 );

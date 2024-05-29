@@ -68,7 +68,7 @@ const Header = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/contact"
+                      to="/gallery"
                       className={({ isActive }) =>
                         `block px-4 py-2 text-white font-lexendDeca uppercase ${isActive ? "bg-mainRed" : ""}`
                       }
@@ -176,7 +176,7 @@ const Header = () => {
                       </span>
                     </NavLink>
                     <NavLink
-                      to="/contact"
+                      to="/gallery"
                       className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-mainRed"
                     >
                       <span className="ml-3 text-base font-medium text-white font-lexendDeca uppercase">
