@@ -214,7 +214,7 @@ function Home() {
         </div>
       </section>
       <hr className="drop-shadow-neonRed shadow-glowRed bg-mainRed border-none h-[2px]" />
-      <section>
+      <section className="relative">
         <div className="flex flex-col-reverse md:grid md:grid-cols-12 bg-darkRed">
           <div className="md:transform md:skew-x-[10deg] lg:skew-x-[15deg] flex lg:w-[80%] z-10 col-span-7 justify-self-end">
             <img src={hoodImg} alt="hood" className="hidden md:block" />
@@ -224,7 +224,7 @@ function Home() {
             <div className="relative z-10 bg-darkRed p-10 md:p-0">
               <div>
                 <div className="w-full flex flex-row items-center">
-                  <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne">
+                  <span className="text-lg lg:text-xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne">
                     About Us
                   </span>
                   <span>
