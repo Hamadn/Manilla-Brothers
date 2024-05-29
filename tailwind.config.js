@@ -46,6 +46,13 @@ module.exports = {
           "0 0 10px #fd2611",
           "0 0 20px #fd2611",
         ],
+        glowWhite: [
+          "0 0 2px #ffffff",
+          "inset 0 0 2px #ffffff",
+          "0 0 5px #ffffff",
+          "0 0 10px #ffffff",
+          "0 0 20px #ffffff",
+        ],
       },
       dropShadow: {
         neonWhite: ["0 0 1.5rem #ffffff"],
@@ -69,6 +76,7 @@ module.exports = {
         "casa-pattern": "url('./src/components/images/casa.png')",
         "hood-pattern": "url('./src/components/images/hood.png')",
         "features-pattern": "url('./src/components/images/features.png')",
+        "featured-works-pattern": "url('./src/components/images/civic.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
