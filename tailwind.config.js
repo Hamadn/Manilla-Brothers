@@ -66,6 +66,7 @@ module.exports = {
         "contact-pattern": "url('./src/components/images/mechanic.png')",
         "home-pattern": "url('./src/components/images/Homepage Image.png')",
         "casa-pattern": "url('./src/components/images/casa.png')",
+        "features-pattern": "url('./src/components/images/features.png)",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -79,11 +80,12 @@ module.exports = {
         darkBlue: "#15151B",
         navyBlue: "#0C0C18",
         lightBlue: "#23232E",
+        purpleBlue: "#2C2C3A",
         rgbaRed: "rgba(65, 22, 22, 0.9)",
         rgbaBlack: "rgba(0, 0, 0, 0.8)",
         Black: "#07070F",
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),],
+  plugins: [require("tailwindcss-animate")],
 };
