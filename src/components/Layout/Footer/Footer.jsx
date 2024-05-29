@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logoImg from "../../images/Logo.png";
+import logo from "../../images/logo.png";
 import rectangle from "../../images/rectangle.svg";
 import rectangleTwo from "../../images/rectangleTwo.svg";
 import location from "../../images/location.png";
@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="w-56 h-56">
-                <img src={logoImg} alt="logo" />
+                <img src={logo} alt="logo" />
               </div>
 
               <p className="mt-4 max-w-xs text-white font-lexendDeca">
