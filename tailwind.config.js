@@ -50,8 +50,8 @@ module.exports = {
       dropShadow: {
         neonWhite: ["0 0 1.5rem #ffffff"],
         neonRed: ["0 0 1.5rem #FD2611"],
-        neonBlue: ["0 0 1.5rem #4066B9"],
-        neonYellow: ["0 0 0.5rem #FABA19"],
+        neonBlue: ["0 0 1.5rem #4D4DFF"],
+        neonYellow: ["0 0 1.5rem #FABA19"],
       },
       keyframes: {
         "accordion-down": {
@@ -67,7 +67,8 @@ module.exports = {
         "contact-pattern": "url('./src/components/images/mechanic.png')",
         "home-pattern": "url('./src/components/images/Homepage Image.png')",
         "casa-pattern": "url('./src/components/images/casa.png')",
-        "features-pattern": "url('./src/components/images/features.png)",
+        "hood-pattern": "url('./src/components/images/hood.png')",
+        "features-pattern": "url('./src/components/images/features.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -83,6 +84,7 @@ module.exports = {
         lightBlue: "#23232E",
         purpleBlue: "#2C2C3A",
         rgbaRed: "rgba(65, 22, 22, 0.9)",
+        rgbaLightRed: "rgba(65, 22, 22, 0.7)",
         rgbaBlack: "rgba(0, 0, 0, 0.8)",
         Black: "#07070F",
       },
