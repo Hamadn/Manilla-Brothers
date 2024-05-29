@@ -66,7 +66,7 @@ module.exports = {
         "contact-pattern": "url('./src/components/images/mechanic.png')",
         "home-pattern": "url('./src/components/images/Homepage Image.png')",
         "casa-pattern": "url('./src/components/images/casa.png')",
-        "features-pattern": "url('./src/components/images/features.png)",
+        "features-pattern": "url('./src/components/images/features.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
