@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { NavLink } from "react-router-dom";
-import logoImg from "../../images/Logo.png";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,10 +18,10 @@ const Header = () => {
       <div className="mx-auto flex max-w-[120rem] items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span className="w-[90px] h-[90px] relative top-4 after:bg-darkBlue after:absolute after:p-[54px] after:-right-2.5 after:-top-0.5 after:rounded-full z-20 after:-z-10">
-            <img src={logoImg} alt="logo" />
+            <img src={logo} alt="logo" />
           </span>
           <span className="font-stalinist text-white text-[16px] first-line:text-[24px] pl-2 leading-1 items-end">
-            Manila <br /> Brothers
+            Manila <br className="block content-[''] -mt-[10px]" /> Brothers
           </span>
         </div>
         <div className="hidden grow items-start lg:flex justify-end">
@@ -132,10 +132,11 @@ const Header = () => {
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
                     <span className="w-[90px] h-[90px]">
-                      <img src={logoImg} alt="logo" />
+                      <img src={logo} alt="logo" />
                     </span>
                     <span className="font-stalinist text-white">
-                      Manilla <br /> Brothers
+                      Manilla <br className="block content-[''] -mt-2" />
+                      Brothers
                     </span>
                   </div>
                   <div className="-mr-2">

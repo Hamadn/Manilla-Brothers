@@ -50,6 +50,7 @@ module.exports = {
       dropShadow: {
         neonWhite: ["0 0 1.5rem #ffffff"],
         neonRed: ["0 0 1.5rem #FD2611"],
+        neonBlue: ["0 0 1.5rem #4066B9"],
       },
       keyframes: {
         "accordion-down": {
