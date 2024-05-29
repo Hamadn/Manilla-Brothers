@@ -51,6 +51,7 @@ module.exports = {
         neonWhite: ["0 0 1.5rem #ffffff"],
         neonRed: ["0 0 1.5rem #FD2611"],
         neonBlue: ["0 0 1.5rem #4066B9"],
+        neonYellow: ["0 0 0.5rem #FABA19"],
       },
       keyframes: {
         "accordion-down": {
