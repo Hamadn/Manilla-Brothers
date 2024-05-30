@@ -6,7 +6,6 @@ import { Img } from "@/components/Img";
 import { Button } from "../../Button";
 import { useState } from "react";
 
-
 function Gallery() {
   const [showMore, setShowMore] = useState(false);
 
@@ -45,10 +44,10 @@ function Gallery() {
         </span>
 
         {/*gallery*/}
-        <div className="gallery flex flex-wrap flex-row justify-center items-center gap-y-2 mt-6 lg:mt-8 w-3/4">
+        <div className="gallery flex flex-wrap flex-col md:flex-row lg:flex-row justify-center items-center gap-x-2 2xl:gap-x-0 gap-y-2 mt-6 lg:mt-8 w-3/4">
 
           {/*rectangle*/}
-          <div className="relative group overflow-hidden w-full h-[220px] md:h-[280px] lg:h-[350px] xl:h-[400px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
+          <div className="relative group overflow-hidden w-full h-[180px] md:h-[220px] lg:h-[350px] xl:h-[400px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
             <Img
               src={carImg2}
               alt="Gallery item"
@@ -76,12 +75,11 @@ function Gallery() {
           </div>
 
           {/*3 parallelograms*/}
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] bg-primaryBg`} style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledRight bg-primaryBg`}>
             <Img
               src={carImg1}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-4">
@@ -94,12 +92,11 @@ function Gallery() {
             </div>
           </div>
           
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] -mx-10 md:-mx-[3rem] lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6rem] bg-primaryBg`} style={{ clipPath: 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)' }}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledBoth lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6.2rem] bg-primaryBg`}>
             <Img
               src={carImg2}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)' }}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledBoth object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-12">
@@ -112,12 +109,11 @@ function Gallery() {
             </div>
           </div>
           
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] bg-primaryBg`} style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledLeft bg-primaryBg`}>
             <Img
               src={carImg1}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
 
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
@@ -133,12 +129,11 @@ function Gallery() {
           </div> 
 
           {/*2 parallelograms*/}
-          <div className="relative group w-[56%] md:w-[56.2%] h-[180px] md:h-[220px] lg:h-[260px] bg-primaryBg" style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}>
+          <div className="relative group w-full md:w-[49%] lg:w-[56%] h-[180px] md:h-[220px] lg:h-[260px] lg:angledRight bg-primaryBg">
             <Img
               src={carImg1}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] left-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}
+              className="block absolute w-[99%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-8">
@@ -151,12 +146,11 @@ function Gallery() {
             </div>
           </div>
     
-          <div className="relative group w-[56%] md:w-[56.2%] h-[180px] md:h-[220px] lg:h-[260px] -ml-[3.8rem] md:-ml-[4.5rem] lg:-ml-[7rem] xl:-ml-[8rem] 2xl:-ml-[9rem] bg-primaryBg" style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}>
+          <div className="relative group w-full md:w-[49%] lg:w-[56%] h-[180px] md:h-[220px] lg:h-[260px] lg:-ml-[7.4rem] xl:-ml-[8rem] 2xl:-ml-[9rem] lg:angledLeft bg-primaryBg">
             <Img
               src={carImg2}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] right-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}
+              className="block absolute w-[99%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-12">
@@ -171,7 +165,7 @@ function Gallery() {
 
           
           {/*rectangle*/}
-          <div className="relative lg:hidden group overflow-hidden w-full h-[220px] md:h-[280px] lg:h-[350px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
+          <div className="relative lg:hidden group overflow-hidden w-full h-[180px] md:h-[220px] lg:h-[350px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
             <Img
               src={carImg2}
               alt="Gallery item"
@@ -199,12 +193,11 @@ function Gallery() {
           </div>
 
           {/*3 parallelograms*/}
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] bg-primaryBg`} style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledRight bg-primaryBg`}>
             <Img
               src={carImg1}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)'}}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-4">
@@ -217,12 +210,11 @@ function Gallery() {
             </div>
           </div>
           
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] -mx-10 md:-mx-[3rem] lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6rem] bg-primaryBg`} style={{ clipPath: 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)' }}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledBoth lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6.2rem] bg-primaryBg`}>
             <Img
               src={carImg2}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)' }}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledBoth object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-12">
@@ -235,12 +227,11 @@ function Gallery() {
             </div>
           </div>
           
-          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-[38.5%] md:w-[38.7%] lg:w-[38.9%] h-[180px] md:h-[220px] lg:h-[290px] bg-primaryBg`} style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}>
+          <div className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledLeft bg-primaryBg`}>
             <Img
               src={carImg1}
               alt=""
-              className="block absolute w-[98%] md:w-[98.2%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
-              style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)' }}
+              className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
 
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
@@ -254,6 +245,7 @@ function Gallery() {
             </div>
 
           </div> 
+
 
         </div>  
         
