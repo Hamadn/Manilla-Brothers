@@ -28,7 +28,7 @@ const Footer = () => {
               <ul className="mt-[25px] flex gap-6">
                 <li>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/mbworkzgarage"
                     rel="noreferrer"
                     target="_blank"
                     className="text-white transition hover:opacity-75"
