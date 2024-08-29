@@ -77,6 +77,9 @@ module.exports = {
         "hood-pattern": "url('./src/components/images/hood.png')",
         "features-pattern": "url('./src/components/images/features.png')",
         "featured-works-pattern": "url('./src/components/images/civic.png')",
+        "about-pattern": "url('./src/components/images/team.png')",
+        "carlift-pattern": "url('./src/components/images/about_image.png')",
+        "mechanic-pattern": "url('./src/components/images/about_image2.png')",
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -87,6 +90,7 @@ module.exports = {
         darkRed: "#411616",
         primaryBg: "#FABA19",
         mainBlue: "#4066B9",
+        blue: "#17172C",
         darkBlue: "#15151B",
         navyBlue: "#0C0C18",
         lightBlue: "#23232E",
@@ -97,27 +101,28 @@ module.exports = {
         Black: "#07070F",
       },
       clipPath: {
-        'angledLeft': 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)',
-        'angledRight': 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)',
-        'angledBoth': 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)',
+        angledLeft: "polygon(0 0, 100% 0, 75% 100%, 0% 100%)",
+        angledRight: "polygon(25% 0, 100% 0, 100% 100%, 0 100%)",
+        angledBoth: "polygon(25% 0, 100% 0, 75% 100%, 0 100%)",
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),
-  function ({ addUtilities }) {
-    const newUtilities = {
-      '.angledLeft': {
-        'clip-path': 'polygon(25% 0, 100% 0, 100% 100%, 0 100%)',
-      },
-      '.angledRight': {
-        'clip-path': 'polygon(0 0, 100% 0, 75% 100%, 0% 100%)',
-      },
-      '.angledBoth': {
-        'clip-path': 'polygon(25% 0, 100% 0, 75% 100%, 0 100%)',
-      },
-    }
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".angledLeft": {
+          "clip-path": "polygon(25% 0, 100% 0, 100% 100%, 0 100%)",
+        },
+        ".angledRight": {
+          "clip-path": "polygon(0 0, 100% 0, 75% 100%, 0% 100%)",
+        },
+        ".angledBoth": {
+          "clip-path": "polygon(25% 0, 100% 0, 75% 100%, 0 100%)",
+        },
+      };
 
-    addUtilities(newUtilities, ['responsive', 'hover'])
-  }
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
   ],
 };

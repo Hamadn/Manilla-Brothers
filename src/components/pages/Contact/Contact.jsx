@@ -4,8 +4,48 @@ import { Input } from "@/components/ui/input";
 import mapImg from "../../images/map.png";
 import rectangle from "../../images/rectangle.svg";
 import { Textarea } from "@/components/ui/textarea";
+import Swal from "sweetalert2";
 
 function Contact() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "02a3492a-8190-4f46-bc01-8b0e5eb5643b");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Form submitted successfully!",
+        icon: "success",
+        color: "#ffffff",
+        background: "#411616",
+        confirmButtonColor: "#fd2611",
+      });
+      event.target.reset();
+    } else {
+      Swal.fire({
+        title: "Error!",
+        text: "Error submitting the form!",
+        icon: "error",
+        color: "#ffffff",
+        background: "#411616",
+        denyButtonColor: "#fd2611",
+      });
+    }
+  };
   return (
     <>
       <div className="min-h-[100vh] bg-contact-pattern bg-cover w-full">
@@ -43,28 +83,40 @@ function Contact() {
               <div className="flex w-full flex-col items-center gap-10 bg-navyBlue p-10 rounded-b-[38px] lg:self-center lg:rounded-tl-[22px] lg:rounded-bl-[22px] lg:rounded-br-[0px] lg:h-[745px] lg:w-[845px]">
                 <div className="flex flex-col gap-10 w-full">
                   <div className="flex flex-col gap-10">
-                    <form action="" className="mt-8 space-y-4">
+                    <form onSubmit={onSubmit} className="mt-8 space-y-4">
                       <div className="grid w-full gap-y-4 md:gap-x-4">
                         <div className="grid w-full items-center gap-1.5">
-                          <Input placeholder="Your Name" type="text"></Input>
+                          <Input
+                            placeholder="Your Name"
+                            type="text"
+                            name="name"
+                            required
+                          ></Input>
                         </div>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="E-mail Address"
                           type="email"
+                          name="email"
+                          required
                         ></Input>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
-                        <Input placeholder="Subject" type="text"></Input>
+                        <Input
+                          placeholder="Subject"
+                          type="text"
+                          name="subject"
+                          required
+                        ></Input>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
-                        <Textarea></Textarea>
+                        <Textarea name="message" required></Textarea>
                       </div>
                       <div className="flex justify-end">
                         <Button
                           size="md"
-                          type="button"
+                          type="submit"
                           className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
                           Submit
