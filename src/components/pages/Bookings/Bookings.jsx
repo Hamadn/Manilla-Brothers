@@ -1,6 +1,6 @@
 import bookBackground from "../../images/bookBackground.png";
 import rectangle from "../../images/rectangle.svg";
-import BookingWidget from "@/components/BookingWidget";
+import ReactTidyCal from "react-tidycal";
 
 export default function ReservationPage() {
   return (
@@ -24,7 +24,7 @@ export default function ReservationPage() {
             </span>
           </div>
         </div>
-        <BookingWidget />
+        <ReactTidyCal path="manilabrothersauto/booking" />
       </div>
     </>
   );
