@@ -81,16 +81,6 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/forum"
-                className={({ isActive }) =>
-                  `inline-flex items-center px-3 py-2 rounded-md text-sm text-white font-lexendDeca uppercase ${isActive ? "bg-mainRed shadow-mainRed shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_10px_#08f,0_0_20px_#08f]" : ""}`
-                }
-              >
-                Forum
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
                 to="/bookings"
                 className={({ isActive }) =>
                   `inline-flex items-center px-3 py-2 rounded-md text-sm text-white font-lexendDeca uppercase ${isActive ? "bg-mainRed shadow-mainRed shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_10px_#08f,0_0_20px_#08f]" : ""}`
@@ -106,16 +96,6 @@ const Header = () => {
               >
                 <NavLink to="/contact">Contact Us</NavLink>
               </button>
-            </li>
-            <li>
-              <NavLink
-                to="login"
-                className={({ isActive }) =>
-                  `inline-flex items-center px-3 py-2 rounded-md text-sm text-white font-lexendDeca uppercase ${isActive ? "bg-mainRed shadow-mainRed shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_10px_#08f,0_0_20px_#08f]" : ""}`
-                }
-              >
-                Log In
-              </NavLink>
             </li>
           </ul>
         </div>
@@ -185,14 +165,6 @@ const Header = () => {
                       </span>
                     </NavLink>
                     <NavLink
-                      to="/forum"
-                      className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-mainRed"
-                    >
-                      <span className="ml-3 text-base font-medium text-white font-lexendDeca uppercase">
-                        Forum
-                      </span>
-                    </NavLink>
-                    <NavLink
                       to="/bookings"
                       className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-mainRed"
                     >
@@ -201,14 +173,6 @@ const Header = () => {
                       </span>
                     </NavLink>
                   </nav>
-                </div>
-                <div className="mt-2 space-y-2">
-                  <button
-                    type="button"
-                    className="rounded-md px-3 py-2 text-sm font-semibold text-white hover:bg-mainRed font-lexendDeca uppercase"
-                  >
-                    Log In
-                  </button>
                 </div>
               </div>
             </div>
