@@ -113,15 +113,7 @@ const Footer = () => {
                       Bookings{" "}
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/forum"
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
-                    >
-                      {" "}
-                      Forum{" "}
-                    </a>
-                  </li>
+
                 </ul>
               </div>
 
