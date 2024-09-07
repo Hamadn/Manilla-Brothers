@@ -1,6 +1,6 @@
 import { Img } from "../../../Img";
-import hoodImg from "../../../images/hood.png";
-import rectangleBlue from "../../../images/rectangleBlue.svg";
+import hoodImg from "../../../../../public/images/hood.png";
+import rectangleBlue from "../../../../../public/images/rectangleBlue.svg";
 import { Button } from "../../../Button";
 
 function About() {

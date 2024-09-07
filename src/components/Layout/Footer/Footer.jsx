@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../images/logo.png";
-import rectangle from "../../images/rectangle.svg";
-import rectangleTwo from "../../images/rectangleTwo.svg";
-import location from "../../images/location.png";
+import logo from "../../../../public/images/logo.png";
+import rectangle from "../../../../public/images/rectangle.svg";
+import rectangleTwo from "../../../../public/images/rectangleTwo.svg";
+import location from "../../../../public/images/location.png";
 import { Phone, Mail, Clock9, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -113,7 +113,6 @@ const Footer = () => {
                       Bookings{" "}
                     </a>
                   </li>
-
                 </ul>
               </div>
 

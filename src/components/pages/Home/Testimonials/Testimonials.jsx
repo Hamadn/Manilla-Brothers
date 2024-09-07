@@ -1,4 +1,4 @@
-import rectangleBlue from "../../../images/rectangleBlue.svg";
+import rectangleBlue from "../../../../../public/images/rectangleBlue.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
