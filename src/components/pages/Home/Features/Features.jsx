@@ -11,7 +11,7 @@ function Features() {
       <div className="absolute inset-0 bg-white bg-opacity-80 z-10"></div>
       <div className="z-20 w-full flex flex-row max-w-[120rem] justify-center items-center mb-8 relative">
         <span>
-          <Img
+          <img
             src={rectangleBlue}
             alt="rectangle"
             className="-scale-x-100 w-[180px]"
@@ -21,7 +21,7 @@ function Features() {
           Why choose us
         </span>
         <span>
-          <Img src={rectangleBlue} alt="rectangle" className="w-[180px]" />
+          <img src={rectangleBlue} alt="rectangle" className="w-[180px]" />
         </span>
       </div>
       <span className="text-2xl lg:text-5xl text-black uppercase block drop-shadow-neonWhite font-daysOne text-center mt-1 lg:mt-2 z-20 relative">
@@ -31,7 +31,7 @@ function Features() {
         <div className="flex justify-center mt-8 z-20 relative w-full">
           <div className="flex flex-col gap-y-10 md:gap-y-0 md:flex-row flex-wrap justify-center gap-x-28 w-full max-w-[120rem]">
             <div className="text-center flex flex-col items-center">
-              <Img
+              <img
                 src={priceTag}
                 alt="pricetag"
                 className="border-8 w-56 border-black p-2"
@@ -43,7 +43,7 @@ function Features() {
               </div>
             </div>
             <div className="text-center flex flex-col items-center">
-              <Img
+              <img
                 src={carImg}
                 alt="car"
                 className="border-8 w-56 border-black p-2"
@@ -55,7 +55,7 @@ function Features() {
               </div>
             </div>
             <div className="text-center flex flex-col items-center">
-              <Img
+              <img
                 src={wrench}
                 alt="wrench"
                 className="border-8 w-56 border-black p-2"
@@ -67,7 +67,7 @@ function Features() {
               </div>
             </div>
             <div className="text-center flex flex-col items-center">
-              <Img
+              <img
                 src={brain}
                 alt="brain"
                 className="border-8 w-56 border-black p-2"

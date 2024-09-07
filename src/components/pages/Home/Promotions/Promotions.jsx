@@ -10,7 +10,7 @@ function Promotions() {
         <section>
           <div className="w-full flex flex-row justify-center items-center">
             <span>
-              <Img
+              <img
                 src={rectangleBlue}
                 alt="rectangle"
                 className="-scale-x-100 w-[120px]"
@@ -20,7 +20,7 @@ function Promotions() {
               Promotions
             </span>
             <span>
-              <Img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
+              <img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
             </span>
           </div>
 
@@ -31,7 +31,7 @@ function Promotions() {
         <section>
           <div className="flex flex-wrap justify-center items-center max-w-[150rem] gap-x-5 gap-y-12 md:gap-y-10 mt-10">
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-              <Img
+              <img
                 src={mechanicImg}
                 alt="mechanic"
                 className="w-full h-64 object-cover"
@@ -49,7 +49,7 @@ function Promotions() {
             </div>
 
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-              <Img
+              <img
                 src={mechanicImg}
                 alt="mechanic"
                 className="w-full h-64 object-cover"
@@ -67,7 +67,7 @@ function Promotions() {
             </div>
 
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] md:hidden lg:block relative">
-              <Img
+              <img
                 src={mechanicImg}
                 alt="mechanic"
                 className="w-full h-64 object-cover"

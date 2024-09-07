@@ -75,7 +75,7 @@ function Contact() {
               </p>
             </div>
             <div className="w-full lg:flex lg:flex-row-reverse lg:justify-center lg:gap-5">
-              <Img
+              <img
                 src={mapImg}
                 alt="image"
                 className="h-[700px] w-full rounded-t-[38px] object-cover md:h-[530px] lg:h-[745px] lg:w-[730px] lg:rounded-[22px] self-center lg:rounded-tr-[22px] lg:rounded-tl-[0px] lg:rounded-bl-[0px] lg:rounded-br-[22px] "
