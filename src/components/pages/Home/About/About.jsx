@@ -1,4 +1,3 @@
-import { Img } from "../../../Img";
 import hoodImg from "/images/hood.png";
 import rectangleBlue from "/images/rectangleBlue.svg";
 import { Button } from "../../../Button";
