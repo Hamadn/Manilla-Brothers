@@ -38,7 +38,7 @@ function Services() {
         {/*promo container*/}
         <div className="flex flex-wrap lg:flex-row justify-center items-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10 w-4/5 lg:w-5/6">
           <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -60,7 +60,7 @@ function Services() {
           </div>
 
           <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -82,7 +82,7 @@ function Services() {
           </div>
 
           <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -104,7 +104,7 @@ function Services() {
           </div>
 
           <div className="hidden md:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -126,7 +126,7 @@ function Services() {
           </div>
 
           <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -148,7 +148,7 @@ function Services() {
           </div>
 
           <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full h-64 object-cover"
@@ -211,7 +211,7 @@ function Services() {
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-6 xl:gap-x-4 xl:gap-y-6 2xl:gap-x-6 2xl:gap-y-8 mt-7 lg:mt-10 w-5/6">
           {/*painting*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -228,7 +228,7 @@ function Services() {
 
           {/*denting*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -245,7 +245,7 @@ function Services() {
 
           {/*mechanical*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -262,7 +262,7 @@ function Services() {
 
           {/*electrical*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -279,7 +279,7 @@ function Services() {
 
           {/*ac works*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -296,7 +296,7 @@ function Services() {
 
           {/*computer diagnostics*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"
@@ -313,7 +313,7 @@ function Services() {
 
           {/*gear specialist*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
-            <Img
+            <img
               src={mechanicImg}
               alt="mechanic"
               className="w-full object-cover"

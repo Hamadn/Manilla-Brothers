@@ -19,7 +19,7 @@ function About() {
                   About Us
                 </span>
                 <span>
-                  <Img
+                  <img
                     src={rectangleBlue}
                     alt="rectangle"
                     className="w-[120px]"
