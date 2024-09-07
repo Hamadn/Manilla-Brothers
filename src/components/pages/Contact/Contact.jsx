@@ -1,8 +1,8 @@
 import { Button } from "../../Button";
 import { Img } from "../../Img";
 import { Input } from "@/components/ui/input";
-import mapImg from "../../images/map.png";
-import rectangle from "../../images/rectangle.svg";
+import mapImg from "../../../../public/images/map.png";
+import rectangle from "../../../../public/images/rectangle.svg";
 import { Textarea } from "@/components/ui/textarea";
 import Swal from "sweetalert2";
 

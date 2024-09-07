@@ -1,9 +1,9 @@
-import rectangleBlue from "../../../images/rectangleBlue.svg";
+import rectangleBlue from "../../../../../public/images/rectangleBlue.svg";
 import { Img } from "../../../Img";
-import priceTag from "../../../images/Price Tag USD.png";
-import carImg from "../../../images/Koenigsegg One.png";
-import wrench from "../../../images/Wrench.png";
-import brain from "../../../images/Critical Thinking.png";
+import priceTag from "../../../../../public/images/Price Tag USD.png";
+import carImg from "../../../../../public/images/Koenigsegg One.png";
+import wrench from "../../../../../public/images/Wrench.png";
+import brain from "../../../../../public/images/Critical Thinking.png";
 
 function Features() {
   return (

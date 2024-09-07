@@ -1,5 +1,5 @@
-import bookBackground from "../../images/bookBackground.png";
-import rectangle from "../../images/rectangle.svg";
+import bookBackground from "../../../../public/images/bookBackground.png";
+import rectangle from "../../../../public/images/rectangle.svg";
 import ReactTidyCal from "react-tidycal";
 
 export default function ReservationPage() {
