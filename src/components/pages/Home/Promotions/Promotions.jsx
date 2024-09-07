@@ -1,6 +1,6 @@
 import { Img } from "../../../Img";
-import rectangleBlue from "../../../../../public/images/rectangleBlue.svg";
-import mechanicImg from "../../../../../public/images/mechanic.png";
+import rectangleBlue from "/images/rectangleBlue.svg";
+import mechanicImg from "/images/mechanic.png";
 import { NavLink } from "react-router-dom";
 
 function Promotions() {

@@ -1,8 +1,8 @@
 import { Button } from "../../Button";
 import { Img } from "../../Img";
 import { Input } from "@/components/ui/input";
-import mapImg from "../../../../public/images/map.png";
-import rectangle from "../../../../public/images/rectangle.svg";
+import mapImg from "/images/map.png";
+import rectangle from "/images/rectangle.svg";
 import { Textarea } from "@/components/ui/textarea";
 import Swal from "sweetalert2";
 
@@ -58,13 +58,14 @@ function Contact() {
                     src={rectangle}
                     alt="rectangle"
                     className="-scale-x-100"
+                    loading="lazy"
                   />
                 </span>
                 <span className="text-5xl text-white uppercase font-daysOne mx-5">
                   Contact Us
                 </span>
                 <span>
-                  <img src={rectangle} alt="rectangle" />
+                  <img src={rectangle} alt="rectangle" loading="lazy" />
                 </span>
               </div>
             </div>
@@ -79,6 +80,7 @@ function Contact() {
                 src={mapImg}
                 alt="image"
                 className="h-[700px] w-full rounded-t-[38px] object-cover md:h-[530px] lg:h-[745px] lg:w-[730px] lg:rounded-[22px] self-center lg:rounded-tr-[22px] lg:rounded-tl-[0px] lg:rounded-bl-[0px] lg:rounded-br-[22px] "
+                loading={"eager"}
               />
               <div className="flex w-full flex-col items-center gap-10 bg-navyBlue p-10 rounded-b-[38px] lg:self-center lg:rounded-tl-[22px] lg:rounded-bl-[22px] lg:rounded-br-[0px] lg:h-[745px] lg:w-[845px]">
                 <div className="flex flex-col gap-10 w-full">

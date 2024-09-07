@@ -1,6 +1,6 @@
 import { Img } from "../../Img";
 import { Button } from "../../Button";
-import rectangleYellow from "../../../../public/images/rectangleYellow.svg";
+import rectangleYellow from "/images/rectangleYellow.svg";
 
 function About() {
   return (

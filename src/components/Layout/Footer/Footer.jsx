@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../../../public/images/logo.png";
-import rectangle from "../../../../public/images/rectangle.svg";
-import rectangleTwo from "../../../../public/images/rectangleTwo.svg";
-import location from "../../../../public/images/location.png";
+import logo from "/images/logo.png";
+import rectangle from "/images/rectangle.svg";
+import rectangleTwo from "/images/rectangleTwo.svg";
+import location from "/images/location.png";
 import { Phone, Mail, Clock9, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="w-56 h-56">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" loading="lazy" />
               </div>
 
               <p className="mt-4 max-w-xs text-white font-lexendDeca">
@@ -24,7 +24,12 @@ const Footer = () => {
               <h2 className="text-white text-xl mt-4 font-daysOne">
                 Follow Us
               </h2>
-              <img src={rectangle} alt="rectangle" className="mt-5" />
+              <img
+                src={rectangle}
+                alt="rectangle"
+                className="mt-5"
+                loading="lazy"
+              />
               <ul className="mt-[25px] flex gap-6">
                 <li>
                   <a
@@ -61,6 +66,7 @@ const Footer = () => {
                   src={rectangle}
                   alt="rectangle"
                   className="w-[100px] mt-5"
+                  loading="lazy"
                 />
 
                 <ul className="mt-[50px] text-xl">
@@ -121,7 +127,12 @@ const Footer = () => {
                   Contact Info
                 </p>
 
-                <img src={rectangleTwo} alt="rectangleTwo" className="mt-5" />
+                <img
+                  src={rectangleTwo}
+                  alt="rectangleTwo"
+                  className="mt-5"
+                  loading="lazy"
+                />
 
                 <ul className="mt-[50px] text-sm">
                   <li className="mb-9">
@@ -170,8 +181,18 @@ const Footer = () => {
                 <p className="font-[1.25rem] text-white font-daysOne uppercase">
                   Location
                 </p>
-                <img src={rectangle} alt="rectangle" className="mt-5" />
-                <img src={location} alt="location" className="mt-12" />
+                <img
+                  src={rectangle}
+                  alt="rectangle"
+                  className="mt-5"
+                  loading="lazy"
+                />
+                <img
+                  src={location}
+                  alt="location"
+                  className="mt-12"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

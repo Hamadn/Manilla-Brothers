@@ -1,7 +1,7 @@
-import rectangleBlue from "../../../../public/images/rectangleBlue.svg";
-import carImg1 from "../../../../public/images/car1.png";
-import carImg2 from "../../../../public/images/car2.png";
-import chevronDown from "../../../../public/images/chevronDown.svg";
+import rectangleBlue from "/images/rectangleBlue.svg";
+import carImg1 from "/images/car1.png";
+import carImg2 from "/images/car2.png";
+import chevronDown from "/images/chevronDown.svg";
 import { Img } from "@/components/Img";
 import { Button } from "../../Button";
 import { useState } from "react";
@@ -24,6 +24,7 @@ function Gallery() {
               src={rectangleBlue}
               alt="rectangle1"
               className="-scale-x-100 w-[90px] md:w-[100px]"
+              loading="eager"
             />
           </span>
           <span className="text-sm lg:text-xl text-mainBlue uppercase font-daysOne mx-1 drop-shadow-neonBlue">
@@ -36,6 +37,7 @@ function Gallery() {
               src={rectangleBlue}
               alt="rectangle2"
               className=" w-[9 0px] md:w-[100px]"
+              loading="eager"
             />
           </span>
         </div>
@@ -54,6 +56,7 @@ function Gallery() {
               src={carImg2}
               alt="Gallery item"
               className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
+              loading="eager"
             />
             <div className="absolute bottom-[-150%] inset-x-0 inset-y-[56%] bg-black bg-opacity-50 flex flex-row justify-center items-center opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <div className="flex flex-col h-2/3">
@@ -92,6 +95,7 @@ function Gallery() {
               src={carImg1}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
+              loading="eager"
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-4">
@@ -111,6 +115,7 @@ function Gallery() {
               src={carImg2}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledBoth object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
+              loading="eager"
             />
             <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-50 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
               <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-12">
@@ -285,7 +290,7 @@ function Gallery() {
         <span
           className={`mt-3 size-5 lg:hidden transition-transform duration-300 ${showMore ? "rotate-180" : "rotate-0"}`}
         >
-          <img src={chevronDown} alt="chevron_down" />
+          <img src={chevronDown} alt="chevron_down" loading="eager" />
         </span>
       </div>
     </>

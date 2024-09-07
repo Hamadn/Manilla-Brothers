@@ -1,4 +1,4 @@
-import rectangleBlue from "../../../../../public/images/rectangleBlue.svg";
+import rectangleBlue from "/images/rectangleBlue.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -64,6 +64,7 @@ function Testimonials() {
               <img
                 src="https://readymadeui.com/profile_2.webp"
                 className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                loading="lazy"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
@@ -120,6 +121,7 @@ function Testimonials() {
               <img
                 src="https://readymadeui.com/profile_3.webp"
                 className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                loading="lazy"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
@@ -176,6 +178,7 @@ function Testimonials() {
               <img
                 src="https://readymadeui.com/profile_4.webp"
                 className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                loading="lazy"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
