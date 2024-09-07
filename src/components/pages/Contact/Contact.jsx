@@ -1,5 +1,4 @@
 import { Button } from "../../Button";
-import { Img } from "../../Img";
 import { Input } from "@/components/ui/input";
 import mapImg from "/images/map.png";
 import rectangle from "/images/rectangle.svg";

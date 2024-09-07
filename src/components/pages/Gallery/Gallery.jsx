@@ -2,7 +2,6 @@ import rectangleBlue from "/images/rectangleBlue.svg";
 import carImg1 from "/images/car1.png";
 import carImg2 from "/images/car2.png";
 import chevronDown from "/images/chevronDown.svg";
-import { Img } from "@/components/Img";
 import { Button } from "../../Button";
 import { useState } from "react";
 

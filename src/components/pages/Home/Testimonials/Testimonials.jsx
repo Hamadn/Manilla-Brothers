@@ -2,7 +2,6 @@ import rectangleBlue from "/images/rectangleBlue.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { Img } from "../../../Img";
 
 function Testimonials() {
   const settings = {
@@ -49,7 +48,7 @@ function Testimonials() {
                 Client Testimonials
               </span>
               <span>
-                <Img
+                <img
                   src={rectangleBlue}
                   className="w-[150px] drop-shadow-neonBlue"
                 />

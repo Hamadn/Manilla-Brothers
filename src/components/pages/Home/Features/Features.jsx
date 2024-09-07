@@ -1,5 +1,4 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
-import { Img } from "../../../Img";
 import priceTag from "/images/Price Tag USD.png";
 import carImg from "/images/Koenigsegg One.png";
 import wrench from "/images/Wrench.png";

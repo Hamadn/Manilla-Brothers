@@ -1,4 +1,3 @@
-import { Img } from "../../../Img";
 import rectangleBlue from "/images/rectangleBlue.svg";
 import mechanicImg from "/images/mechanic.png";
 import { NavLink } from "react-router-dom";

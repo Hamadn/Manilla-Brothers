@@ -1,7 +1,6 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
 import phoneIcon from "/images/phoneIcon.svg";
 import mechanicImg from "/images/mechanic.png";
-import { Img } from "../../Img";
 import { Button } from "../../Button";
 
 function Services() {
