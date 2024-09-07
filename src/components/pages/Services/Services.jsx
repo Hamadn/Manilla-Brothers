@@ -1,6 +1,6 @@
-import rectangleBlue from "../../../../public/images/rectangleBlue.svg";
-import phoneIcon from "../../../../public/images/phoneIcon.svg";
-import mechanicImg from "../../../../public/images/mechanic.png";
+import rectangleBlue from "/images/rectangleBlue.svg";
+import phoneIcon from "/images/phoneIcon.svg";
+import mechanicImg from "/images/mechanic.png";
 import { Img } from "../../Img";
 import { Button } from "../../Button";
 
@@ -17,6 +17,7 @@ function Services() {
               src={rectangleBlue}
               alt="rectangle"
               className="-scale-x-100 w-[120px]"
+              loading="lazy"
             />
           </span>
           <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
@@ -25,7 +26,12 @@ function Services() {
             Promotions
           </span>
           <span>
-            <img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
+            <img
+              src={rectangleBlue}
+              alt="rectangle"
+              className=" w-[120px]"
+              loading="lazy"
+            />
           </span>
         </div>
 
@@ -181,6 +187,7 @@ function Services() {
               src={rectangleBlue}
               alt="rectangle"
               className="-scale-x-100 w-[120px]"
+              loading="lazy"
             />
           </span>
           <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
@@ -189,7 +196,12 @@ function Services() {
             Services
           </span>
           <span>
-            <img src={rectangleBlue} alt="rectangle" className="w-[120px]" />
+            <img
+              src={rectangleBlue}
+              alt="rectangle"
+              className="w-[120px]"
+              loading="lazy"
+            />
           </span>
         </div>
 
