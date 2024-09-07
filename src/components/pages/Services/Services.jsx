@@ -17,7 +17,6 @@ function Services() {
               src={rectangleBlue}
               alt="rectangle"
               className="-scale-x-100 w-[120px]"
-              loading="lazy"
             />
           </span>
           <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
@@ -26,12 +25,7 @@ function Services() {
             Promotions
           </span>
           <span>
-            <img
-              src={rectangleBlue}
-              alt="rectangle"
-              className=" w-[120px]"
-              loading="lazy"
-            />
+            <img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
           </span>
         </div>
 
@@ -187,7 +181,6 @@ function Services() {
               src={rectangleBlue}
               alt="rectangle"
               className="-scale-x-100 w-[120px]"
-              loading="lazy"
             />
           </span>
           <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
@@ -196,12 +189,7 @@ function Services() {
             Services
           </span>
           <span>
-            <img
-              src={rectangleBlue}
-              alt="rectangle"
-              className="w-[120px]"
-              loading="lazy"
-            />
+            <img src={rectangleBlue} alt="rectangle" className="w-[120px]" />
           </span>
         </div>
 
