@@ -1,6 +1,14 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
 import carImg1 from "/images/car1.png";
 import carImg2 from "/images/car2.png";
+import carImg3 from "/images/car3.png";
+import carImg4 from "/images/car4.png";
+import carImg5 from "/images/car5.png";
+import carImg6 from "/images/car6.png";
+import carImg7 from "/images/car7.png";
+import carImg8 from "/images/car8.png";
+import carImg9 from "/images/car9.png";
+import carImg10 from "/images/car10.png";
 import chevronDown from "/images/chevronDown.svg";
 import { Button } from "../../Button";
 import { useState } from "react";
@@ -50,7 +58,7 @@ function Gallery() {
           {/*rectangle*/}
           <div className="relative group overflow-hidden w-full h-[180px] md:h-[220px] lg:h-[350px] xl:h-[400px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
             <img
-              src={carImg2}
+              src={carImg1}
               alt="Gallery item"
               className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
@@ -88,7 +96,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledRight bg-primaryBg`}
           >
             <img
-              src={carImg1}
+              src={carImg2}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
@@ -107,7 +115,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledBoth lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6.2rem] bg-primaryBg`}
           >
             <img
-              src={carImg2}
+              src={carImg3}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledBoth object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
@@ -126,7 +134,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledLeft bg-primaryBg`}
           >
             <img
-              src={carImg1}
+              src={carImg4}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
@@ -145,7 +153,7 @@ function Gallery() {
           {/*2 parallelograms*/}
           <div className="relative group w-full md:w-[49%] lg:w-[56%] h-[180px] md:h-[220px] lg:h-[260px] lg:angledRight bg-primaryBg">
             <img
-              src={carImg1}
+              src={carImg5}
               alt=""
               className="block absolute w-[99%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
@@ -162,7 +170,7 @@ function Gallery() {
 
           <div className="relative group w-full md:w-[49%] lg:w-[56%] h-[180px] md:h-[220px] lg:h-[260px] lg:-ml-[7.4rem] xl:-ml-[8rem] 2xl:-ml-[9rem] lg:angledLeft bg-primaryBg">
             <img
-              src={carImg2}
+              src={carImg6}
               alt=""
               className="block absolute w-[99%] lg:w-[98.8%] h-[176px] md:h-[216px] lg:h-[256px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
@@ -180,7 +188,7 @@ function Gallery() {
           {/*rectangle*/}
           <div className="relative lg:hidden group overflow-hidden w-full h-[180px] md:h-[220px] lg:h-[350px] border-[2px] border-primaryBg lg:hover:border-[0px] transition-all duration-500 ease-in-out">
             <img
-              src={carImg2}
+              src={carImg7}
               alt="Gallery item"
               className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
@@ -218,7 +226,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledRight bg-primaryBg`}
           >
             <img
-              src={carImg1}
+              src={carImg8}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledRight object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
@@ -237,7 +245,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full md:w-[49%] lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledBoth lg:-mx-[4.8rem] xl:-mx-[5.4rem] 2xl:-mx-[6.2rem] bg-primaryBg`}
           >
             <img
-              src={carImg2}
+              src={carImg9}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] left-[2px] lg:angledBoth object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105"
             />
@@ -256,7 +264,7 @@ function Gallery() {
             className={`${showMore ? "flex" : "hidden"} relative lg:flex group w-full lg:w-[38.5%] 2xl:w-[39%] h-[180px] md:h-[220px] lg:h-[290px] lg:angledLeft bg-primaryBg`}
           >
             <img
-              src={carImg1}
+              src={carImg10}
               alt=""
               className="block absolute w-[99%] h-[176px] md:h-[216px] lg:h-[286px] top-[2px] right-[2px] lg:angledLeft object-cover transition-transform duration-500 ease-in-out transform lg:group-hover:scale-105 "
             />
