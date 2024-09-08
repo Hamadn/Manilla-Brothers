@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../../../Button";
 
 function Cta() {
@@ -18,7 +19,7 @@ function Cta() {
               className="bg-primaryBg uppercase shadow-glow text-black mt-4 mx-auto md:mx-0"
               size="md"
             >
-              Book Now
+              <Link to={"/bookings"}>Book Now</Link>
             </Button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import hoodImg from "/images/hood.png";
 import rectangleBlue from "/images/rectangleBlue.svg";
 import { Button } from "../../../Button";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -39,7 +40,7 @@ function About() {
                 className="bg-primaryBg uppercase shadow-glow text-black mt-4"
                 size="md"
               >
-                Learn More
+                <Link to={"/about"}>Learn More</Link>
               </Button>
             </div>
           </div>
