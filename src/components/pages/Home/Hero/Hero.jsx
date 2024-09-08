@@ -1,5 +1,6 @@
 import { PhoneCall } from "lucide-react";
 import { Button } from "../../../Button";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="flex bg-home-pattern bg-center bg-cover min-h-[100vh] leading-[30px] sm:leading-[40px] lg:leading-[60px] md:leading-[30px] justify-center items-center">
@@ -17,7 +18,7 @@ function Hero() {
         </p>
         <Button className="flex gap-2 uppercase bg-primaryBg font-lexendDeca shadow-primaryBg lg:text-2xl h-[40px] w-[350px] lg:w-[460px] md:width-[300px] rounded-md shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_10px_#08f,0_0_20px_#08f]">
           <PhoneCall />
-          Book an Appointment Now
+          <Link to={"/bookings"}>Book an Appointment Now</Link>
         </Button>
         <hr className="w-[320px] lg:w-[450px] mt-5 border-2 border-primaryBg shadow-glow" />
       </div>

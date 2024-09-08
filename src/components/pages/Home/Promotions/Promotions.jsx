@@ -1,5 +1,7 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
-import mechanicImg from "/images/mechanic.png";
+import painting from "/images/Painting.png";
+import denting from "/images/Mechanical.png";
+import computerDiagnostics from "/images/Computer Diagnostics.png";
 import { NavLink } from "react-router-dom";
 
 function Promotions() {
@@ -31,8 +33,8 @@ function Promotions() {
           <div className="flex flex-wrap justify-center items-center max-w-[150rem] gap-x-5 gap-y-12 md:gap-y-10 mt-10">
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
               <img
-                src={mechanicImg}
-                alt="mechanic"
+                src={painting}
+                alt="painting"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
@@ -49,8 +51,8 @@ function Promotions() {
 
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
               <img
-                src={mechanicImg}
-                alt="mechanic"
+                src={denting}
+                alt="denting"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
@@ -67,8 +69,8 @@ function Promotions() {
 
             <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] md:hidden lg:block relative">
               <img
-                src={mechanicImg}
-                alt="mechanic"
+                src={computerDiagnostics}
+                alt="computerDiagnostics"
                 className="w-full h-64 object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
