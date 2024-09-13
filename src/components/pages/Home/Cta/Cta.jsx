@@ -11,9 +11,9 @@ function Cta() {
               We Provide casa quality <br /> service.
             </h1>
             <p>
-              &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Officia voluptate quibusdam eum nostrum praesentium. Sequi nulla
-              quo perspiciatis nihil voluptates!&quot;
+              Visit us today and trust our experts to take care of your car. 
+              With Manila <br />Brothers Autoworks, you can drive confidently knowing 
+              your vehicle is in great hands!
             </p>
             <Button
               className="bg-primaryBg uppercase shadow-glow text-black mt-4 mx-auto md:mx-0"

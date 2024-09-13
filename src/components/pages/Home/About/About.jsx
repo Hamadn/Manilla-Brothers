@@ -30,11 +30,11 @@ function About() {
                 Under the hood
               </h1>
               <p>
-                &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do <br /> eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut <br /> enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris <br /> nisi ut aliquip ex ea
-                commodo consequat&quot;
+                Our story is one of perseverance, growth, and a 
+                relentless pursuit of excellence.<br /> Manila Brothers Autoworks
+                will continue to offer<br /> budget-friendly services without
+                compromising on quality. <br /> We remain dedicated to providing the
+                best for our valued customers.
               </p>
               <Button
                 className="bg-primaryBg uppercase shadow-glow text-black mt-4"

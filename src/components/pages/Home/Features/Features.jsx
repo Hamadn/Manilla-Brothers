@@ -37,7 +37,7 @@ function Features() {
               />
               <div className="w-72">
                 <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
-                  Transparent and Customized Pricing
+                  Quality on a Budget
                 </h3>
               </div>
             </div>
@@ -49,7 +49,7 @@ function Features() {
               />
               <div className="w-72">
                 <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
-                  Premium Experience & Affordable Rates
+                  Skilled Technicians
                 </h3>
               </div>
             </div>
@@ -61,7 +61,7 @@ function Features() {
               />
               <div className="w-72">
                 <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
-                  Trusted By <br /> Certified Car Guys
+                  Quick Turnaround
                 </h3>
               </div>
             </div>
@@ -73,7 +73,7 @@ function Features() {
               />
               <div className="w-72">
                 <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
-                  Tailored Solutions
+                  Guaranteed Satisfaction
                 </h3>
               </div>
             </div>
