@@ -209,8 +209,7 @@ function Services() {
           className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5"
           style={{ wordSpacing: "0.16rem" }}
         >
-          PAINTING DENTING MECHANICAL ELECTRICAL A/C WORKS COMPUTER DIAGNOSTICS
-          GEAR SPECIALISTS
+          PANEL & FULL BODY PAINT | DENTING | ENGINE DIAGNOSTICS & REPAIRS | TRANSMISSION REBUILD AND REPAIRS | <br  />A/C REPAIRS | ELECTRICAL REPAIRS | OIL CHANGE, WHEEL BALANCING AND OTHER ROUTINE MAINTENANCE
         </span>
 
         {/*services container*/}
@@ -226,8 +225,8 @@ function Services() {
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
               {" "}
               {/*text container*/}
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                Painting
+              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+                Panel and Full Body Paint
               </span>
             </div>
           </div>
@@ -256,8 +255,8 @@ function Services() {
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
               {" "}
               {/*text container*/}
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                Mechanical
+              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+                Engine Diagnostics<br  /> and Repairs
               </span>
             </div>
           </div>
@@ -273,8 +272,8 @@ function Services() {
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
               {" "}
               {/*text container*/}
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                Electrical
+              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+                Transmission Rebuild<br  /> and Repairs
               </span>
             </div>
           </div>
@@ -287,7 +286,7 @@ function Services() {
               {" "}
               {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                A/C works
+                A/C Repairs
               </span>
             </div>
           </div>
@@ -303,8 +302,8 @@ function Services() {
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
               {" "}
               {/*text container*/}
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                Computer Diagnostics
+              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2">
+                Electrical Repairs
               </span>
             </div>
           </div>
@@ -320,8 +319,8 @@ function Services() {
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center ">
               {" "}
               {/*text container*/}
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
-                Gear Specialist
+              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+              Oil Change, Wheel Balancing<br  /> and Other Routine<br  /> Maintenance
               </span>
             </div>
           </div>
