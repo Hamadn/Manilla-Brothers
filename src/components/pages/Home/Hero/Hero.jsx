@@ -8,7 +8,7 @@ function Hero() {
         <h2 className="text-center font-stalinist text-white text-xl sm:text-3xl lg:text-[43.5px] md:text-[29px] uppercase drop-shadow-neonWhite">
           Manila Brothers
         </h2>
-        <h2 className="text-center font-stalinist text-white text-[31px] sm:text-[46px] lg:text-[66px] md:text-[44px] uppercase drop-shadow-neonWhite">
+        <h2 className="text-center font-stalinist text-white text-[31px] sm:text-[46px] lg:text-[66px] md:text-[44px] uppercase drop-shadow-neonWhite pb-2">
           Autoworks
         </h2>
         <p className="text-center text-2xl md:text-[23px] lg:text-2xl text-white mb-24">

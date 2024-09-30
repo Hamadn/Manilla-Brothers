@@ -1,8 +1,8 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
-import priceTag from "/images/Price Tag USD.png";
-import carImg from "/images/Koenigsegg One.png";
-import wrench from "/images/Wrench.png";
-import brain from "/images/Critical Thinking.png";
+import priceTag from "/images/price-tag.png";
+import techniciansImg from "/images/automobile-with-wrench.png";
+import hourglassImg from "/images/hourglass.png";
+import satisfactionImg from "/images/satisfaction.png";
 
 function Features() {
   return (
@@ -43,7 +43,7 @@ function Features() {
             </div>
             <div className="text-center flex flex-col items-center">
               <img
-                src={carImg}
+                src={techniciansImg}
                 alt="car"
                 className="border-8 w-56 border-black p-2"
               />
@@ -55,7 +55,7 @@ function Features() {
             </div>
             <div className="text-center flex flex-col items-center">
               <img
-                src={wrench}
+                src={hourglassImg}
                 alt="wrench"
                 className="border-8 w-56 border-black p-2"
               />
@@ -67,7 +67,7 @@ function Features() {
             </div>
             <div className="text-center flex flex-col items-center">
               <img
-                src={brain}
+                src={satisfactionImg}
                 alt="brain"
                 className="border-8 w-56 border-black p-2"
               />
