@@ -47,7 +47,7 @@ function Gallery() {
           </span>
         </div>
 
-        <span className="text-xl lg:text-4xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
+        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
           {" "}
           {/*description text*/}
           DISCOVER AUTOMOTIVE EXCELLENCE!

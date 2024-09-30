@@ -87,6 +87,7 @@ function Contact() {
                         <div className="grid w-full items-center gap-1.5">
                           <Input
                             placeholder="Your Name"
+                            className="text-base" 
                             type="text"
                             name="name"
                             required
@@ -96,6 +97,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="E-mail Address"
+                          className="text-base" 
                           type="email"
                           name="email"
                           required
@@ -104,19 +106,25 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Subject"
+                          className="text-base" 
                           type="text"
                           name="subject"
                           required
                         ></Input>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
-                        <Textarea name="message" required></Textarea>
+                        <Textarea 
+                          name="message" 
+                          className="text-base" 
+                          placeholder="Service" 
+                          required
+                        ></Textarea>
                       </div>
                       <div className="flex justify-end">
                         <Button
                           size="md"
                           type="submit"
-                          className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                          className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
                           Submit
                         </Button>

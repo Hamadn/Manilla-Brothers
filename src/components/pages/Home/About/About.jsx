@@ -26,7 +26,7 @@ function About() {
                   />
                 </span>
               </div>
-              <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase">
+              <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
                 Under the hood
               </h1>
               <p>

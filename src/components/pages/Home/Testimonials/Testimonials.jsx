@@ -98,7 +98,7 @@ function Testimonials() {
                   <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                 </svg>
                 <svg
-                  className="w-6 fill-[#CED5D8]"
+                  className="w-6 fill-[#facc15]"
                   viewBox="0 0 14 13"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -109,9 +109,8 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-                  The service was amazing. I never had to wait that long for my
-                  food. The staff was friendly and attentive, and the delivery
-                  was impressively prompt.
+                  Very good mechanic, quality works, specifically in pajero, also paint job carshow finish,
+                  the owner very accommodating. Highly recommended.
                 </p>
               </div>
             </div>
@@ -165,9 +164,8 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-                  The service was amazing. I never had to wait that long for my
-                  food. The staff was friendly and attentive, and the delivery
-                  was impressively prompt.
+                  Five stars to this Filipino-owned garage. Very kind, honest and approachable. 
+                  All staff are fiendly. I recommend this garage to all car owners.
                 </p>
               </div>
             </div>
@@ -202,7 +200,7 @@ function Testimonials() {
                   <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                 </svg>
                 <svg
-                  className="w-6 fill-[#CED5D8]"
+                  className="w-6 fill-[#facc15]"
                   viewBox="0 0 14 13"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +208,7 @@ function Testimonials() {
                   <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                 </svg>
                 <svg
-                  className="w-6 fill-[#CED5D8]"
+                  className="w-6 fill-[#facc15]"
                   viewBox="0 0 14 13"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -221,9 +219,8 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-                  The service was amazing. I never had to wait that long for my
-                  food. The staff was friendly and attentive, and the delivery
-                  was impressively prompt.
+                  Very professional and skilled mechanics they have, reasonable price and I&aposm very satisfied with
+                  work they have done to my car.
                 </p>
               </div>
             </div>
