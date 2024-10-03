@@ -17,8 +17,8 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-xs text-white font-lexendDeca">
-                &quot;Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Esse non cupiditate quae nam molestias.&quot;
+                Trusted by certified car experts, we deliver top-quality service at unbeatable prices.
+                Experience the care your car deserves with us!
               </p>
 
               <h2 className="text-white text-xl mt-4 font-daysOne">
