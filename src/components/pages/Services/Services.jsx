@@ -56,10 +56,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
                 <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>
@@ -78,10 +78,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
                 <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>
@@ -100,10 +100,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
                 <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>
@@ -122,10 +122,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
                 <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>
@@ -144,10 +144,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
-                <p className="text-sm text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-xs text-white font-lexendDeca">
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>
@@ -166,10 +166,10 @@ function Services() {
                 {" "}
                 {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
-                <p className="text-sm text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-xs text-white font-lexendDeca">
+                  We’re preparing great deals for your car. Check back soon for special offers!
                 </p>
               </div>
             </div>

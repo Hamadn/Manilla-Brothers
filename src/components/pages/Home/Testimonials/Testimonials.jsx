@@ -165,8 +165,8 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-                  Five stars to this Filipino-owned garage. Very kind, honest
-                  and approachable. All staff are fiendly.
+                  Five stars to this amazing Filipino-owned garage. Very kind, honest
+                  and approachable. All staff are super friendly.
                 </p>
               </div>
             </div>
@@ -221,7 +221,7 @@ function Testimonials() {
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
                   Very professional and skilled mechanics they have, reasonable
-                  price and I&aposm very satisfied with work they have done to
+                  price and I'm very satisfied with work they have done to
                   my car.
                 </p>
               </div>

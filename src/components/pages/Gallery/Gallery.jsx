@@ -1,7 +1,7 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
 import carImg1 from "/images/Honda Civic Type R.jpg";
-import carImg2 from "/images/Mitsubishi Lancer Blue.jpg";
-import carImg3 from "/images/Mitsubishi Lancer Black.jpg";
+import carImg2 from "/images/Mitsubishi Lancer Blue.png";
+import carImg3 from "/images/Honda Civic Type R2.jpg";
 import { useEffect } from "react";
 
 function Gallery() {
@@ -56,7 +56,7 @@ function Gallery() {
               </div>
 
               <span className="text-sm lg:text-xs text-white text-justify w-2/5 font-lexendDeca">
-                Award won: Single 8 Raw Pro Champion
+                Awards won: Champion in Best Lancer and Single 8 Raw Pro
               </span>
             </div>
           </div>
@@ -70,11 +70,11 @@ function Gallery() {
               />
               <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-75 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
                 <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-4">
-                  Mitsubishi Lancer
+                  Honda Civic 
                 </span>
 
                 <span className="text-xs lg:text-xs text-white font-lexendDeca px-4">
-                  Award won: Best Lancer
+                  Sleek, bold, and built to turn heads.
                 </span>
               </div>
             </div>
@@ -91,7 +91,7 @@ function Gallery() {
                 </span>
 
                 <span className="text-xs lg:text-xs text-white font-lexendDeca px-12">
-                  Awards Won: Best daily driven car and Best SPL
+                  Awards Won: Champion in Best daily driven car and Best SPL
                 </span>
               </div>
             </div>
