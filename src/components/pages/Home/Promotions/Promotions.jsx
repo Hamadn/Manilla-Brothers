@@ -1,7 +1,5 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
 import painting from "/images/Painting.png";
-import denting from "/images/Mechanical.png";
-import computerDiagnostics from "/images/Computer Diagnostics.png";
 import { Link } from "react-router-dom";
 
 function Promotions() {
