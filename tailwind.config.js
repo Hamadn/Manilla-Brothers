@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,jsx}",
@@ -100,29 +100,6 @@ module.exports = {
         rgbaBlack: "rgba(0, 0, 0, 0.8)",
         Black: "#07070F",
       },
-      clipPath: {
-        angledLeft: "polygon(0 0, 100% 0, 75% 100%, 0% 100%)",
-        angledRight: "polygon(25% 0, 100% 0, 100% 100%, 0 100%)",
-        angledBoth: "polygon(25% 0, 100% 0, 75% 100%, 0 100%)",
-      },
     },
   },
-  plugins: [
-    require("tailwindcss-animate"),
-    function ({ addUtilities }) {
-      const newUtilities = {
-        ".angledLeft": {
-          "clip-path": "polygon(25% 0, 100% 0, 100% 100%, 0 100%)",
-        },
-        ".angledRight": {
-          "clip-path": "polygon(0 0, 100% 0, 75% 100%, 0% 100%)",
-        },
-        ".angledBoth": {
-          "clip-path": "polygon(25% 0, 100% 0, 75% 100%, 0 100%)",
-        },
-      };
-
-      addUtilities(newUtilities, ["responsive", "hover"]);
-    },
-  ],
 };

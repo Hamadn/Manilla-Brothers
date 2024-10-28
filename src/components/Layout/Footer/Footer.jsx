@@ -17,8 +17,9 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-xs text-white font-lexendDeca">
-                Trusted by certified car experts, we deliver top-quality service at unbeatable prices.
-                Experience the care your car deserves with us!
+                Trusted by certified car experts, we deliver top-quality service
+                at unbeatable prices. Experience the care your car deserves with
+                us!
               </p>
 
               <h2 className="text-white text-xl mt-4 font-daysOne">
@@ -124,45 +125,24 @@ const Footer = () => {
                 <img src={rectangleTwo} alt="rectangleTwo" className="mt-5" />
 
                 <ul className="mt-[50px] text-sm">
-                  <li className="mb-9">
-                    <a
-                      href="#"
-                      className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
-                    >
-                      <Phone className="mr-3" /> 052 304 1850{" "}
-                    </a>
+                  <li className="mb-9 flex text-white font-lexendDeca text-[1.125rem]">
+                    <Phone className="mr-3" /> 052 304 1850
                   </li>
 
-                  <li className="mb-9">
-                    <a
-                      href="#"
-                      className="flex text-white font-lexendDeca text-[1.1rem] transition hover:opacity-75"
-                    >
-                      {" "}
-                      <Mail className="mr-3" /> mnlabrosauto@gmail.com{" "}
-                    </a>
+                  <li className="mb-9 flex text-white font-lexendDeca text-[1.1rem]">
+                    <Mail className="mr-3" /> mnlabrosauto@gmail.com
                   </li>
 
-                  <li className="mb-9">
-                    <a
-                      href="#"
-                      className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
-                    >
-                      <Clock9 className="mr-3" /> Monday-Sunday: 8-AM - 8PM{" "}
-                      <br /> Friday: Closed{" "}
-                    </a>
+                  <li className="mb-9 flex text-white font-lexendDeca text-[1.125rem]">
+                    <Clock9 className="mr-3" /> Monday-Sunday: 8-AM - 8PM <br />
+                    Friday: Closed
                   </li>
 
-                  <li>
-                    <a
-                      href="#"
-                      className="flex text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
-                    >
-                      <MapPin className="mr-3" /> Warehouse No. 2 21st Street -
-                      Al <br /> Qusais Industrial Area - Al
-                      <br />
-                      Qusais Industrial Area 1 - Dubai{" "}
-                    </a>
+                  <li className="flex text-white font-lexendDeca text-[1.125rem]">
+                    <MapPin className="mr-3" /> Warehouse No. 2 21st Street - Al{" "}
+                    <br /> Qusais Industrial Area - Al
+                    <br />
+                    Qusais Industrial Area 1 - Dubai{" "}
                   </li>
                 </ul>
               </div>
