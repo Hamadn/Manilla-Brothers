@@ -28,8 +28,7 @@
     "react-tidycal": "^0.1.2",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.13.2",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",

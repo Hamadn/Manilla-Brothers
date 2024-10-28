@@ -109,8 +109,14 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
+<<<<<<< HEAD
                   "Very good mechanic, quality works, specifically in pajero, also paint job carshow finish,
                   the owner very accommodating. Highly recommended." <br />— Francis Tanig
+=======
+                  Very good mechanic, quality works, specifically in pajero,
+                  also paint job carshow finish, the owner very accommodating.
+                  Highly recommended.
+>>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>
@@ -164,8 +170,13 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
+<<<<<<< HEAD
                   "Five stars to this Filipino-owned garage. Very kind, honest and approachable. 
                   All staff are fiendly. I recommend this garage to all car owners." <br />— Fidel Estella
+=======
+                  Five stars to this amazing Filipino-owned garage. Very kind, honest
+                  and approachable. All staff are super friendly.
+>>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>
@@ -219,8 +230,14 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
+<<<<<<< HEAD
                   "Very professional and skilled mechanics they have, reasonable price, and I'm very satisfied with
                   work they have done to my car." <br />— John Mhay Cortez
+=======
+                  Very professional and skilled mechanics they have, reasonable
+                  price and I'm very satisfied with work they have done to
+                  my car.
+>>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>

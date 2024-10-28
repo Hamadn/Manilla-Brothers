@@ -9,8 +9,12 @@ import electrical from "/images/Electric.png";
 import computerDiagnostics from "/images/Computer Diagnostics.png";
 import { Button } from "../../Button";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/*promotions section*/}
@@ -43,133 +47,20 @@ function Services() {
 
         {/*promo container*/}
         <div className="flex flex-wrap lg:flex-row justify-center items-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10 w-4/5 lg:w-5/6">
-          <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
+          <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
             <img
               src={painting}
-              alt="painting"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
-                <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
-                </h2>
-                <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={denting}
-              alt="denting"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
-                <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
-                </h2>
-                <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={computerDiagnostics}
-              alt="computerDiagnostics"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
-                <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
-                </h2>
-                <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="hidden md:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={electrical}
-              alt="electrical"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
-                <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
-                </h2>
-                <p className=" text-xs text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={mechanical}
-              alt="mechanical"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
-                <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
-                </h2>
-                <p className="text-sm text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={acWorks}
               alt="acWorks"
               className="w-full h-64 object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              {" "}
-              {/*text container*/}
               <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                {" "}
-                {/*text container*/}
                 <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                  Promotion/Offer Title
+                  Stay Tuned for Exciting Offers!
                 </h2>
-                <p className="text-sm text-white font-lexendDeca">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p className="text-xs text-white font-lexendDeca">
+                  We’re preparing great deals for your car. Check back soon for
+                  special offers!
                 </p>
               </div>
             </div>
@@ -180,8 +71,6 @@ function Services() {
       {/*services section*/}
       <div className="flex flex-col justify-center items-center py-16">
         <div className="w-full flex flex-row justify-center items-center">
-          {" "}
-          {/*title container*/}
           <span>
             <img
               src={rectangleBlue}
@@ -190,8 +79,6 @@ function Services() {
             />
           </span>
           <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
-            {" "}
-            {/*title text*/}
             Services
           </span>
           <span>
@@ -200,8 +87,6 @@ function Services() {
         </div>
 
         <span className="text-2xl lg:text-5xl text-black uppercase font-daysOne text-center mt-1 lg:mt-5">
-          {" "}
-          {/*description text*/}
           MANILA BROTHER’S SPECIALTIES
         </span>
 
@@ -209,12 +94,14 @@ function Services() {
           className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5"
           style={{ wordSpacing: "0.16rem" }}
         >
-          PANEL & FULL BODY PAINT | DENTING | ENGINE DIAGNOSTICS & REPAIRS | TRANSMISSION REBUILD AND REPAIRS | <br  />A/C REPAIRS | ELECTRICAL REPAIRS | OIL CHANGE, WHEEL BALANCING AND OTHER ROUTINE MAINTENANCE
+          PANEL & FULL BODY PAINT | DENTING | ENGINE DIAGNOSTICS & REPAIRS |
+          TRANSMISSION REBUILD AND REPAIRS | <br />
+          A/C REPAIRS | ELECTRICAL REPAIRS | OIL CHANGE, WHEEL BALANCING AND
+          OTHER ROUTINE MAINTENANCE
         </span>
 
         {/*services container*/}
         <div className="flex flex-wrap justify-center gap-x-4 gap-y-6 xl:gap-x-4 xl:gap-y-6 2xl:gap-x-6 2xl:gap-y-8 mt-7 lg:mt-10 w-5/6">
-          {/*painting*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img
               src={painting}
@@ -223,28 +110,22 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Panel and Full Body Paint
               </span>
             </div>
           </div>
 
-          {/*denting*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img src={denting} alt="denting" className="w-full object-cover" />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
                 Denting
               </span>
             </div>
           </div>
 
-          {/*mechanical*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img
               src={mechanical}
@@ -253,15 +134,13 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
-                Engine Diagnostics<br  /> and Repairs
+                Engine Diagnostics
+                <br /> and Repairs
               </span>
             </div>
           </div>
 
-          {/*electrical*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img
               src={electrical}
@@ -270,28 +149,23 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
-                Transmission Rebuild<br  /> and Repairs
+                Transmission Rebuild
+                <br /> and Repairs
               </span>
             </div>
           </div>
 
-          {/*ac works*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img src={acWorks} alt="acWorks" className="w-full object-cover" />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
                 A/C Repairs
               </span>
             </div>
           </div>
 
-          {/*computer diagnostics*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img
               src={computerDiagnostics}
@@ -300,15 +174,12 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2">
                 Electrical Repairs
               </span>
             </div>
           </div>
 
-          {/*gear specialist*/}
           <div className="flex w-[250px] md:w-[280px]  lg:w-[300px] xl:w-[330px] 2xl:w-[400px] flex-row justify-center items-center ">
             <img
               src={gearSpecialist}
@@ -317,10 +188,10 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center ">
-              {" "}
-              {/*text container*/}
               <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
-              Oil Change, Wheel Balancing<br  /> and Other Routine<br  /> Maintenance
+                Oil Change, Wheel Balancing
+                <br /> and Other Routine
+                <br /> Maintenance
               </span>
             </div>
           </div>

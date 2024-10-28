@@ -1,8 +1,6 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
 import painting from "/images/Painting.png";
-import denting from "/images/Mechanical.png";
-import computerDiagnostics from "/images/Computer Diagnostics.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Promotions() {
   return (
@@ -40,53 +38,18 @@ function Promotions() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
                 <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
                   <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
+                    Stay Tuned for Exciting Offers!
                   </h2>
                   <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-              <img
-                src={denting}
-                alt="denting"
-                className="w-full h-64 object-cover"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-                <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                  <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
-                  </h2>
-                  <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex w-[290px] xl:w-[370px] 2xl:w-[400px] md:hidden lg:block relative">
-              <img
-                src={computerDiagnostics}
-                alt="computerDiagnostics"
-                className="w-full h-64 object-cover"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-                <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                  <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
-                  </h2>
-                  <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We’re preparing great deals for your car. Check back soon
+                    for special offers!
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <p className="text-primaryBg font-lexendDeca drop-shadow-neonYellow mt-44 text-center underline">
-            <NavLink to="/services">See all promotions&gt;</NavLink>
+            <Link to="/services">See all promotions&gt;</Link>
           </p>
         </section>
       </div>
