@@ -124,7 +124,7 @@ function Contact() {
                         <Button
                           size="md"
                           type="submit"
-                          className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                          className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-[#faba19] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
                           Submit
                         </Button>

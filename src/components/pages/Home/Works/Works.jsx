@@ -15,7 +15,7 @@ function Works() {
           attention to detail.
         </p>
       </div>
-      <Button className="bg-white uppercase shadow-glowWhite border-4 text-2xl text-black mt-4 z-20 self-end h-[60px] w-[250px]">
+      <Button className="bg-white uppercase shadow-glowWhite border-1 text-2xl text-black mt-4 z-20 self-end h-[60px] w-[230px]">
         <Link to="/gallery">Visit Gallery</Link>
       </Button>
     </section>
