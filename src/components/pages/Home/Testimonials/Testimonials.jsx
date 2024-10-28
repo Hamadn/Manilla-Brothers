@@ -1,4 +1,7 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
+import rev1 from "/images/rev1.png";
+import rev2 from "/images/rev2.png";
+import rev3 from "/images/rev3.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -61,8 +64,8 @@ function Testimonials() {
           <Slider {...settings}>
             <div className="h-auto py-8 px-4 lg:px-8 mx-auto bg-purpleBlue text-white relative">
               <img
-                src="https://readymadeui.com/profile_2.webp"
-                className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                src={rev1}
+                className="w-32 h-32 rounded-full absolute right-0 left-0 mx-auto -top-16"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
@@ -109,21 +112,15 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-<<<<<<< HEAD
                   "Very good mechanic, quality works, specifically in pajero, also paint job carshow finish,
                   the owner very accommodating. Highly recommended." <br />— Francis Tanig
-=======
-                  Very good mechanic, quality works, specifically in pajero,
-                  also paint job carshow finish, the owner very accommodating.
-                  Highly recommended.
->>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>
             <div className="h-auto py-8 px-4 lg:px-8 mx-auto bg-purpleBlue text-white relative">
               <img
-                src="https://readymadeui.com/profile_3.webp"
-                className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                src={rev2}
+                className="w-32 h-32 rounded-full absolute right-0 left-0 mx-auto -top-16"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
@@ -170,20 +167,15 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-<<<<<<< HEAD
                   "Five stars to this Filipino-owned garage. Very kind, honest and approachable. 
                   All staff are fiendly. I recommend this garage to all car owners." <br />— Fidel Estella
-=======
-                  Five stars to this amazing Filipino-owned garage. Very kind, honest
-                  and approachable. All staff are super friendly.
->>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>
             <div className="h-auto py-8 px-4 lg:px-8 mx-auto bg-purpleBlue text-white relative">
               <img
-                src="https://readymadeui.com/profile_4.webp"
-                className="w-24 h-24 rounded-full absolute right-0 left-0 mx-auto -top-12"
+                src={rev3}
+                className="w-32 h-32 rounded-full absolute right-0 left-0 mx-auto -top-16"
               />
               <div className="flex space-x-1 justify-center my-8">
                 <svg
@@ -230,14 +222,8 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed">
-<<<<<<< HEAD
                   "Very professional and skilled mechanics they have, reasonable price, and I'm very satisfied with
                   work they have done to my car." <br />— John Mhay Cortez
-=======
-                  Very professional and skilled mechanics they have, reasonable
-                  price and I'm very satisfied with work they have done to
-                  my car.
->>>>>>> 01891ebe2708724a90a22b2674fa3ab2467f303e
                 </p>
               </div>
             </div>
