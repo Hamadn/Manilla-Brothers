@@ -1,6 +1,9 @@
-import { Button } from "../../Button";
+import { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="bg-about-pattern h-[100vh] bg-cover bg-rgbaLightRed bg-no-repeat bg-blend-overlay grid place-items-center">

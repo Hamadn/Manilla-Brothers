@@ -30,17 +30,18 @@ function About() {
                 Under the hood
               </h1>
               <p>
-                Our story is one of perseverance, growth, and a 
-                relentless pursuit of excellence.<br /> Manila Brothers Autoworks
-                will continue to offer<br /> budget-friendly services without
-                compromising on quality. <br /> We remain dedicated to providing the
-                best for our valued customers.
+                Our story is one of perseverance, growth, and a relentless
+                pursuit of excellence.
+                <br /> Manila Brothers Autoworks will continue to offer
+                <br /> budget-friendly services without compromising on quality.{" "}
+                <br /> We remain dedicated to providing the best for our valued
+                customers.
               </p>
               <Button
                 className="bg-primaryBg uppercase shadow-glow text-black mt-4"
                 size="md"
               >
-                <Link to={"/about"}>Learn More</Link>
+                <Link to="/about">Learn More</Link>
               </Button>
             </div>
           </div>

@@ -70,7 +70,7 @@ function Gallery() {
               />
               <div className="absolute bottom-[-50%] inset-x-0 inset-y-[68%] bg-black bg-opacity-75 flex flex-col justify-center items-start opacity-0 lg:group-hover:opacity-100 lg:group-hover:bottom-0 transition-all duration-500 ease-in-out">
                 <span className="text-xl lg:text-xl text-white mb-2 font-daysOne px-4">
-                  Honda Civic 
+                  Honda Civic
                 </span>
 
                 <span className="text-xs lg:text-xs text-white font-lexendDeca px-4">
