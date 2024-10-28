@@ -40,10 +40,10 @@ function Promotions() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
                 <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
                   <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
+                    Stay Tuned for Exciting Offers!
                   </h2>
                   <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We’re preparing great deals for your car. Check back soon for special offers!
                   </p>
                 </div>
               </div>
@@ -58,10 +58,10 @@ function Promotions() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
                 <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
                   <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
+                    Stay Tuned for Exciting Offers!
                   </h2>
                   <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We’re preparing great deals for your car. Check back soon for special offers!
                   </p>
                 </div>
               </div>
@@ -76,10 +76,10 @@ function Promotions() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
                 <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
                   <h2 className="text-lg lg:text-xl text-white font-daysOne mb-2 ">
-                    Promotion/Offer Title
+                    Stay Tuned for Exciting Offers!
                   </h2>
                   <p className=" text-xs text-white font-lexendDeca">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    We’re preparing great deals for your car. Check back soon for special offers!
                   </p>
                 </div>
               </div>
