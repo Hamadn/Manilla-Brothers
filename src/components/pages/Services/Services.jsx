@@ -202,7 +202,7 @@ function Services() {
           className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-glow "
         >
           <span className=" mr-5">
-            <img src={phoneIcon} alt="phone" />
+            <img src={phoneIcon} alt="phone" style={{ fill: "black" }} />
           </span>
           <Link to={"/bookings"}>BOOK AN APPOINTMENT NOW</Link>
         </Button>
