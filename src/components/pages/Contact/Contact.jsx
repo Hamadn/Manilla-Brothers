@@ -87,7 +87,7 @@ function Contact() {
                         <div className="grid w-full items-center gap-1.5">
                           <Input
                             placeholder="Your Name"
-                            className="text-base" 
+                            className="text-base"
                             type="text"
                             name="name"
                             required
@@ -96,27 +96,27 @@ function Contact() {
                       </div>
                       <div className="grid w-full items-center gap-1.5">
                         <Input
-                          placeholder="E-mail Address"
-                          className="text-base" 
-                          type="email"
-                          name="email"
+                          placeholder="Phone Number"
+                          className="text-base"
+                          type="tel"
+                          name="tel"
                           required
                         ></Input>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Subject"
-                          className="text-base" 
+                          className="text-base"
                           type="text"
                           name="subject"
                           required
                         ></Input>
                       </div>
                       <div className="grid w-full items-center gap-1.5">
-                        <Textarea 
-                          name="message" 
-                          className="text-base" 
-                          placeholder="Service" 
+                        <Textarea
+                          name="message"
+                          className="text-base"
+                          placeholder="Message"
                           required
                         ></Textarea>
                       </div>
