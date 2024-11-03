@@ -15,7 +15,7 @@ function Promotions() {
                 className="-scale-x-100 w-[120px]"
               />
             </span>
-            <span className="text-lg lg:text-xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
+            <span className="text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
               Promotions
             </span>
             <span>
@@ -23,7 +23,7 @@ function Promotions() {
             </span>
           </div>
 
-          <span className="text-2xl lg:text-5xl text-white uppercase drop-shadow-neonWhite font-daysOne text-center mt-1 lg:mt-5">
+          <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
             Drive Into Irresistible Promos!
           </span>
         </section>
@@ -48,7 +48,7 @@ function Promotions() {
               </div>
             </div>
           </div>
-          <p className="text-primaryBg font-lexendDeca drop-shadow-neonYellow mt-44 text-center underline">
+          <p className="text-primaryBg font-lexendDeca drop-shadow-neonYellow mt-20 text-center underline">
             <Link to="/services">See all promotions&gt;</Link>
           </p>
         </section>
