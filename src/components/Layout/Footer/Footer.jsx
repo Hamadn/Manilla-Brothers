@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "/images/logo.png";
 import rectangle from "/images/rectangle.svg";
 import rectangleTwo from "/images/rectangleTwo.svg";
@@ -130,10 +130,13 @@ const Footer = () => {
                   </li>
 
                   <li className="flex text-white font-lexendDeca text-[1.125rem]">
-                    <MapPin className="mr-3" /> Warehouse No. 2 21st Street - Al{" "}
-                    <br /> Qusais Industrial Area - Al
-                    <br />
-                    Qusais Industrial Area 1 - Dubai
+                    <MapPin className="mr-3" />
+                    <Link to={"https://maps.app.goo.gl/372NjKUS7apMyNHJ7"}>
+                      Warehouse No. 2 21st Street - Al <br /> Qusais Industrial
+                      Area - Al
+                      <br />
+                      Qusais Industrial Area 1 - Dubai
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -142,7 +145,13 @@ const Footer = () => {
                   Location
                 </p>
                 <img src={rectangle} alt="rectangle" className="mt-5" />
-                <img src={location} alt="location" className="mt-12" />
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.409005839242!2d55.390992999999995!3d25.290458899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590d2f2bd979%3A0xe5e698641471b418!2sManila%20Brothers%20Autoworks%20Garage!5e0!3m2!1sen!2sae!4v1730707072174!5m2!1sen!2sae"
+                  className="h-72 w-80 border-none mt-12"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
