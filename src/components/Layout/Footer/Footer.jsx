@@ -12,11 +12,11 @@ const Footer = () => {
         <div className="mx-auto max-w-[120rem] space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <div className="w-56 h-56">
+              <div className="w-40 h-40">
                 <img src={logo} alt="logo" />
               </div>
 
-              <p className="mt-4 max-w-xs text-white font-lexendDeca">
+              <p className="mt-4 max-w-s text-white font-lexendDeca">
                 Trusted by certified car experts, we deliver top-quality service
                 at unbeatable prices. Experience the care your car deserves with
                 us!
@@ -58,11 +58,7 @@ const Footer = () => {
                 <p className="font-[1.25rem] text-white font-daysOne uppercase">
                   Links
                 </p>
-                <img
-                  src={rectangle}
-                  alt="rectangle"
-                  className="w-[100px] mt-5"
-                />
+                <img src={rectangleTwo} alt="rectangleTwo" className="mt-5" />
 
                 <ul className="mt-[50px] text-xl">
                   <li className="mb-4">
@@ -70,8 +66,7 @@ const Footer = () => {
                       to=""
                       className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      {" "}
-                      Home{" "}
+                      Home
                     </NavLink>
                   </li>
 
@@ -80,8 +75,7 @@ const Footer = () => {
                       href="/about"
                       className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      {" "}
-                      About{" "}
+                      About
                     </a>
                   </li>
 
@@ -90,8 +84,7 @@ const Footer = () => {
                       href="/services"
                       className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      {" "}
-                      Services{" "}
+                      Services
                     </a>
                   </li>
 
@@ -100,8 +93,7 @@ const Footer = () => {
                       href="/gallery"
                       className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      {" "}
-                      Gallery{" "}
+                      Gallery
                     </a>
                   </li>
 
@@ -110,8 +102,7 @@ const Footer = () => {
                       href="/bookings"
                       className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
                     >
-                      {" "}
-                      Bookings{" "}
+                      Bookings
                     </a>
                   </li>
                 </ul>
@@ -142,7 +133,7 @@ const Footer = () => {
                     <MapPin className="mr-3" /> Warehouse No. 2 21st Street - Al{" "}
                     <br /> Qusais Industrial Area - Al
                     <br />
-                    Qusais Industrial Area 1 - Dubai{" "}
+                    Qusais Industrial Area 1 - Dubai
                   </li>
                 </ul>
               </div>
