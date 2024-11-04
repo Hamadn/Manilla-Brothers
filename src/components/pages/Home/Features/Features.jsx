@@ -8,7 +8,7 @@ function Features() {
   return (
     <section className="relative bg-features-pattern bg-bottom bg-opacity-20 w-full h-full p-16 bg-cover flex flex-col justify-center items-center">
       <div className="absolute inset-0 bg-white bg-opacity-80 z-10"></div>
-      <div className="z-20 w-full flex flex-row max-w-[120rem] justify-center items-center mb-8 relative">
+      <div className="z-20 w-full flex flex-row max-w-[120rem] justify-center items-center relative">
         <span>
           <img
             src={rectangleBlue}
