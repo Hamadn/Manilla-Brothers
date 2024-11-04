@@ -15,7 +15,7 @@ function Promotions() {
                 className="-scale-x-100 w-[120px]"
               />
             </span>
-            <span className="text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
+            <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
               Promotions
             </span>
             <span>

@@ -15,10 +15,10 @@ function About() {
           <div className="relative z-10 bg-darkRed p-10 md:p-0">
             <div>
               <div className="w-full flex flex-row items-center">
-                <span className="text-lg lg:text-xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne">
+                <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne">
                   About Us
                 </span>
-                <span>
+                <span className="hidden sm:block mb-2 sm:mr-2">
                   <img
                     src={rectangleBlue}
                     alt="rectangle"
@@ -26,7 +26,7 @@ function About() {
                   />
                 </span>
               </div>
-              <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
+              <h1 className="text-[20px] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
                 Under the hood
               </h1>
               <p className="font-lexendDeca">

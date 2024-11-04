@@ -1,5 +1,5 @@
 import rectangleBlue from "/images/rectangleBlue.svg";
-import phoneIcon from "/images/phoneIcon.svg";
+import { PhoneCall } from "lucide-react";
 import painting from "/images/Painting.png";
 import mechanical from "/images/Mechanical.png";
 import denting from "/images/Denting.png";
@@ -29,7 +29,7 @@ function Services() {
               className="-scale-x-100 w-[120px]"
             />
           </span>
-          <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
+          <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
             {" "}
             {/*title text*/}
             Promotions
@@ -39,7 +39,7 @@ function Services() {
           </span>
         </div>
 
-        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
+        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center">
           {" "}
           {/*description text*/}
           DRIVE INTO IRRESISTIBLE PROMOS!
@@ -55,7 +55,7 @@ function Services() {
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
               <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                <h2 className="text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 ">
+                <h2 className="text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 text-center">
                   Stay Tuned for Exciting Offers!
                 </h2>
                 <p className="text-xs text-white font-lexendDeca">
@@ -78,7 +78,7 @@ function Services() {
               className="-scale-x-100 w-[120px]"
             />
           </span>
-          <span className="text-lg lg:text-xl text-mainBlue uppercase font-daysOne mx-1">
+          <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
             Services
           </span>
           <span>
@@ -86,12 +86,12 @@ function Services() {
           </span>
         </div>
 
-        <span className="text-2xl lg:text-5xl text-black uppercase font-daysOne text-center mt-1 lg:mt-5">
+        <span className="text-[20px] sm:text-2xl lg:text-5xl text-black uppercase font-daysOne text-center mt-1 lg:mt-5">
           MANILA BROTHER’S SPECIALTIES
         </span>
 
         <span
-          className="text-[9px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5"
+          className="text-[13px] lg:text-sm text-black uppercase font-lexendDeca text-center mt-1 lg:mt-5"
           style={{ wordSpacing: "0.16rem" }}
         >
           PANEL & FULL BODY PAINT | DENTING | ENGINE DIAGNOSTICS & REPAIRS |
@@ -110,7 +110,7 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Panel and Full Body Paint
               </span>
             </div>
@@ -120,7 +120,7 @@ function Services() {
             <img src={denting} alt="denting" className="w-full object-cover" />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Denting
               </span>
             </div>
@@ -134,7 +134,7 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Engine Diagnostics
                 <br /> and Repairs
               </span>
@@ -149,7 +149,7 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Transmission Rebuild
                 <br /> and Repairs
               </span>
@@ -160,7 +160,7 @@ function Services() {
             <img src={acWorks} alt="acWorks" className="w-full object-cover" />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 ">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 A/C Repairs
               </span>
             </div>
@@ -174,7 +174,7 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2">
+              <span className="text-[14px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Electrical Repairs
               </span>
             </div>
@@ -188,7 +188,7 @@ function Services() {
             />
 
             <div className="absolute bg-black bg-opacity-70 flex flex-col justify-center item-center ">
-              <span className="text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
+              <span className="text-[13px] sm:text-xs xl:text-xl text-white font-daysOne px-4 lg:px-8 py-2 text-center">
                 Oil Change, Wheel Balancing
                 <br /> and Other Routine
                 <br /> Maintenance
@@ -201,8 +201,8 @@ function Services() {
           size="md"
           className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-glow "
         >
-          <span className=" mr-5">
-            <img src={phoneIcon} alt="phone" />
+          <span className="mr-5">
+            <PhoneCall />
           </span>
           <Link to={"/bookings"}>BOOK AN APPOINTMENT NOW</Link>
         </Button>

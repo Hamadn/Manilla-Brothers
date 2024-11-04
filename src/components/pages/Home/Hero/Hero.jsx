@@ -11,7 +11,7 @@ function Hero() {
         <h2 className="text-center font-stalinist text-white text-[31px] sm:text-[46px] lg:text-[66px] md:text-[44px] uppercase drop-shadow-neonWhite pb-2">
           Autoworks
         </h2>
-        <p className="text-center font-lexendDeca text-2xl md:text-[23px] lg:text-2xl text-white mb-24">
+        <p className="text-center font-lexendDeca text-lg sm:text-base md:text-[23px] lg:text-2xl text-white mb-24">
           Trusted auto experts. Unbeatable prices. <br /> Your car deserves the best 
           care — choose us!
         </p>
