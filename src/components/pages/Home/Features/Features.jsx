@@ -36,7 +36,7 @@ function Features() {
                 className="border-8 w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
+                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quality on a Budget
                 </h3>
               </div>
@@ -48,7 +48,7 @@ function Features() {
                 className="border-8 w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
+                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Skilled Technicians
                 </h3>
               </div>
@@ -60,7 +60,7 @@ function Features() {
                 className="border-8 w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
+                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quick Turnaround
                 </h3>
               </div>
@@ -72,7 +72,7 @@ function Features() {
                 className="border-8 w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-daysOne text-black mt-2 md:mt-10">
+                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Guaranteed Satisfaction
                 </h3>
               </div>

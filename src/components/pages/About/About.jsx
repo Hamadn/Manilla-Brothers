@@ -9,7 +9,7 @@ function About() {
       <div className="bg-about-pattern h-[100vh] bg-cover bg-rgbaLightRed bg-no-repeat bg-blend-overlay grid place-items-center">
         <div className="grid place-content-center bg-darkRed w-[80%] text-white p-20 m-4 h-auto">
           <header className="font-daysOne text-3xl pb-2">Under the hood</header>
-          <p className="text-base">
+          <p className="text-base font-lexendDeca">
             On March 9, 2021, MBworkz began its journey from humble beginnings.
             We started as a small shop, as operators of Caravan Garage, where we
             could only accommodate up to seven cars at a time. Despite the

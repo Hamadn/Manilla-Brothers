@@ -111,7 +111,7 @@ function Testimonials() {
               </div>
               <hr />
               <div className="mt-4">
-                <p className="text-sm text-center leading-relaxed">
+                <p className="text-sm text-center leading-relaxed font-lexendDeca">
                   "Very good mechanic, quality works, specifically in pajero, also paint job carshow finish,
                   the owner very accommodating. Highly recommended." <br />— Francis Tanig
                 </p>
@@ -166,7 +166,7 @@ function Testimonials() {
               </div>
               <hr />
               <div className="mt-4">
-                <p className="text-sm text-center leading-relaxed">
+                <p className="text-sm text-center leading-relaxed font-lexendDeca">
                   "Five stars to this Filipino-owned garage. Very kind, honest and approachable. 
                   All staff are fiendly. I recommend this garage to all car owners." <br />— Fidel Estella
                 </p>
@@ -221,7 +221,7 @@ function Testimonials() {
               </div>
               <hr />
               <div className="mt-4">
-                <p className="text-sm text-center leading-relaxed">
+                <p className="text-sm text-center leading-relaxed font-lexendDeca">
                   "Very professional and skilled mechanics they have, reasonable price, and I'm very satisfied with
                   work they have done to my car." <br />— John Mhay Cortez
                 </p>

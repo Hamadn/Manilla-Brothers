@@ -10,13 +10,13 @@ function Cta() {
             <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
               We Provide casa quality <br /> service.
             </h1>
-            <p>
+            <p className="font-lexendDeca">
               Visit us today and trust our experts to take care of your car. 
               With Manila <br />Brothers Autoworks, you can drive confidently knowing 
               your vehicle is in great hands!
             </p>
             <Button
-              className="bg-primaryBg uppercase shadow-glow text-black mt-4 mx-auto md:mx-0"
+              className="bg-primaryBg font-lexendDeca uppercase shadow-glow text-black mt-4 mx-auto md:mx-0"
               size="md"
             >
               <Link to={"/bookings"}>Book Now</Link>
