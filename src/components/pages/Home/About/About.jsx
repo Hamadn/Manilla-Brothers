@@ -29,7 +29,7 @@ function About() {
               <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
                 Under the hood
               </h1>
-              <p>
+              <p className="font-lexendDeca">
                 Our story is one of perseverance, growth, and a relentless
                 pursuit of excellence.
                 <br /> Manila Brothers Autoworks will continue to offer
@@ -38,7 +38,7 @@ function About() {
                 customers.
               </p>
               <Button
-                className="bg-primaryBg uppercase shadow-glow text-black mt-4"
+                className="bg-primaryBg uppercase font-lexendDeca shadow-glow text-black mt-4"
                 size="md"
               >
                 <Link to="/about">Learn More</Link>

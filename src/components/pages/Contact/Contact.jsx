@@ -87,7 +87,7 @@ function Contact() {
                         <div className="grid w-full items-center gap-1.5">
                           <Input
                             placeholder="Your Name"
-                            className="text-base"
+                            className="text-base font-lexendDeca"
                             type="text"
                             name="name"
                             required
@@ -97,7 +97,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Phone Number"
-                          className="text-base"
+                          className="text-base font-lexendDeca"
                           type="tel"
                           name="tel"
                           required
@@ -106,7 +106,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Subject"
-                          className="text-base"
+                          className="text-base font-lexendDeca"
                           type="text"
                           name="subject"
                           required
@@ -115,7 +115,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Textarea
                           name="message"
-                          className="text-base"
+                          className="text-base font-lexendDeca"
                           placeholder="Message"
                           required
                         ></Textarea>
@@ -124,7 +124,7 @@ function Contact() {
                         <Button
                           size="md"
                           type="submit"
-                          className="flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-[#faba19] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                          className="font-lexendDeca flex md:w-80 rounded-[4px] bg-mainRed px-3 py-2 text-base font-semibold text-white shadow-sm hover:bg-[#faba19] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                         >
                           Submit
                         </Button>
