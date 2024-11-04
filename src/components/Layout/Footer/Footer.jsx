@@ -129,13 +129,6 @@ const Footer = () => {
                     Friday: Closed
                   </li>
 
-<<<<<<< HEAD
-                  <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
-                    <MapPin className="mr-3" /> Warehouse No. 2 21st Street - Al{" "}
-                    <br /> Qusais Industrial Area - Al
-                    <br />
-                    Qusais Industrial Area 1 - Dubai
-=======
                   <li className="flex text-white font-lexendDeca text-[1.125rem]">
                     <MapPin className="mr-3" />
                     <Link to={"https://maps.app.goo.gl/372NjKUS7apMyNHJ7"}>
@@ -144,7 +137,6 @@ const Footer = () => {
                       <br />
                       Qusais Industrial Area 1 - Dubai
                     </Link>
->>>>>>> de081e595d7f1f4ebfec18c585938e309b575d59
                   </li>
                 </ul>
               </div>
