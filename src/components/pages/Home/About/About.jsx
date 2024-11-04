@@ -29,7 +29,7 @@ function About() {
               <h1 className="text-[20px] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
                 Under the hood
               </h1>
-              <p className="font-lexendDeca">
+              <p className="font-lexendDeca text-sm sm:text-base">
                 Our story is one of perseverance, growth, and a relentless
                 pursuit of excellence.
                 <br /> Manila Brothers Autoworks will continue to offer

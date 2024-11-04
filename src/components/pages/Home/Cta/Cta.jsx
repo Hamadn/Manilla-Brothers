@@ -10,7 +10,7 @@ function Cta() {
             <h1 className="text-[20px] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
               We Provide casa quality <br /> service.
             </h1>
-            <p className="font-lexendDeca">
+            <p className="font-lexendDeca text-sm sm:text-base">
               Visit us today and trust our experts to take care of your car. 
               With Manila <br />Brothers Autoworks, you can drive confidently knowing 
               your vehicle is in great hands!

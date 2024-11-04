@@ -17,9 +17,8 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-s text-white font-lexendDeca">
-                Trusted by certified car experts, we deliver top-quality service
-                at unbeatable prices. Experience the care your car deserves with
-                us!
+                Trusted auto experts. Unbeatable prices. <br /> Your car deserves the best 
+                care — choose us!
               </p>
 
               <h2 className="text-white text-[18px] sm:text-xl mt-4 font-daysOne">
@@ -129,7 +128,7 @@ const Footer = () => {
                     Friday: Closed
                   </li>
 
-                  <li className="flex text-white font-lexendDeca text-[1.125rem]">
+                  <li className="flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <MapPin className="mr-3" />
                     <Link to={"https://maps.app.goo.gl/372NjKUS7apMyNHJ7"}>
                       Warehouse No. 2 21st Street - Al <br /> Qusais Industrial

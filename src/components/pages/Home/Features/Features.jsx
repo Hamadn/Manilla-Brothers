@@ -33,10 +33,10 @@ function Features() {
               <img
                 src={priceTag}
                 alt="pricetag"
-                className="border-8 w-40 sm:w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quality on a Budget
                 </h3>
               </div>
@@ -45,10 +45,10 @@ function Features() {
               <img
                 src={techniciansImg}
                 alt="car"
-                className="border-8 w-40 sm:w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Skilled Technicians
                 </h3>
               </div>
@@ -57,10 +57,10 @@ function Features() {
               <img
                 src={hourglassImg}
                 alt="wrench"
-                className="border-8 w-40 sm:w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quick Turnaround
                 </h3>
               </div>
@@ -69,10 +69,10 @@ function Features() {
               <img
                 src={satisfactionImg}
                 alt="brain"
-                className="border-8 w-40 sm:w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Guaranteed Satisfaction
                 </h3>
               </div>

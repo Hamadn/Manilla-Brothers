@@ -18,7 +18,7 @@ function Services() {
   return (
     <>
       {/*promotions section*/}
-      <div className="bg-navyBlue flex flex-col justify-center items-center border-b-4 border-mainRed py-24">
+      <div className="bg-navyBlue flex flex-col justify-center items-center py-24">
         <div className="w-full flex flex-row justify-center items-center">
           {" "}
           {/*title container*/}
@@ -55,10 +55,10 @@ function Services() {
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
               <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                <h2 className="text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 text-center">
+                <h2 className="text-[16px] sm:text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 text-center">
                   Stay Tuned for Exciting Offers!
                 </h2>
-                <p className="text-xs text-white font-lexendDeca">
+                <p className="text-xs text-white font-lexendDeca text-center">
                   We’re preparing great deals for your car. Check back soon for
                   special offers!
                 </p>
@@ -69,6 +69,7 @@ function Services() {
       </div>
 
       {/*services section*/}
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
       <div className="flex flex-col justify-center items-center py-16">
         <div className="w-full flex flex-row justify-center items-center">
           <span>
@@ -86,7 +87,7 @@ function Services() {
           </span>
         </div>
 
-        <span className="text-[20px] sm:text-2xl lg:text-5xl text-black uppercase font-daysOne text-center mt-1 lg:mt-5">
+        <span className="text-[20px] sm:text-2xl lg:text-5xl text-black uppercase font-daysOne text-center">
           MANILA BROTHER’S SPECIALTIES
         </span>
 
@@ -207,6 +208,7 @@ function Services() {
           <Link to={"/bookings"}>BOOK AN APPOINTMENT NOW</Link>
         </Button>
       </div>
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
     </>
   );
 }
