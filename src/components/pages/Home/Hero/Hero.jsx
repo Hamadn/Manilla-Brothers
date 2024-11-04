@@ -15,11 +15,11 @@ function Hero() {
           Trusted by certified car experts, we deliver top-quality service at unbeatable prices.<br />
           Experience the care your car deserves with us!
         </p>
-        <Button className="flex gap-2 uppercase bg-primaryBg font-lexendDeca shadow-primaryBg lg:text-2xl h-[40px] w-[350px] lg:w-[460px] md:width-[300px] rounded-md shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_10px_#08f,0_0_20px_#08f]">
+        <Button className="flex gap-2 uppercase bg-primaryBg font-lexendDeca lg:text-xl h-[40px] w-[350px] lg:w-[460px] md:width-[300px] rounded-md">
           <PhoneCall />
           <Link to={"/bookings"}>Book an Appointment Now</Link>
         </Button>
-        <hr className="w-[320px] lg:w-[450px] mt-5 border-2 border-primaryBg shadow-glow" />
+        <hr className="w-[320px] lg:w-[450px] mt-5 border-2 border-primaryBg" />
       </div>
     </section>
   );

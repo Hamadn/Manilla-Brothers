@@ -23,7 +23,7 @@ function Features() {
           <img src={rectangleBlue} alt="rectangle" className="w-[180px]" />
         </span>
       </div>
-      <span className="text-2xl lg:text-5xl text-black uppercase block drop-shadow-neonWhite font-daysOne text-center mt-1 lg:mt-2 z-20 relative">
+      <span className="text-2xl lg:text-5xl text-black uppercase block drop-shadow-neonWhite font-daysOne text-center z-20 relative">
         Rev up your ride with Manila Brothers!
       </span>
       <div className="relative max-w-[120rem]">

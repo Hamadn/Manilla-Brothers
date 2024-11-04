@@ -39,7 +39,7 @@ function Services() {
           </span>
         </div>
 
-        <span className="text-2xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
+        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center mt-1 lg:mt-5">
           {" "}
           {/*description text*/}
           DRIVE INTO IRRESISTIBLE PROMOS!
@@ -47,7 +47,7 @@ function Services() {
 
         {/*promo container*/}
         <div className="flex flex-wrap lg:flex-row justify-center items-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10 w-4/5 lg:w-5/6">
-          <div className="hidden lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
+          <div className="lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
             <img
               src={painting}
               alt="acWorks"
@@ -202,7 +202,7 @@ function Services() {
           className="rounded-[4px] p-5 bg-primaryBg font-lexendDeca font-semibold text-black mt-10 transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-glow "
         >
           <span className=" mr-5">
-            <img src={phoneIcon} alt="phone" style={{ fill: "black" }} />
+            <img src={phoneIcon} alt="phone" />
           </span>
           <Link to={"/bookings"}>BOOK AN APPOINTMENT NOW</Link>
         </Button>
