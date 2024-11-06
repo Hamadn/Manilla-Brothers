@@ -6,9 +6,11 @@ function About() {
   }, []);
   return (
     <>
-      <div className="bg-about-pattern h-[100vh] bg-cover bg-rgbaLightRed bg-no-repeat bg-blend-overlay grid place-items-center">
-        <div className="grid place-content-center bg-darkRed w-[80%] text-white p-20 m-4 h-auto">
-          <header className="font-daysOne text-[20px] sm:text-[2.1875em] lg:text-[2.5em] pb-2">Under the hood</header>
+      <div className="bg-about-pattern md:h-[100vh] h-max bg-cover bg-rgbaLightRed bg-no-repeat bg-blend-overlay grid place-items-center">
+        <div className="grid place-content-center bg-darkRed w-[80%] text-white p-8 md:p-20 m-4 h-auto">
+          <header className="font-daysOne text-[20px] sm:text-[2.1875em] lg:text-[2.5em] pb-2">
+            Under the hood
+          </header>
           <p className="text-[14px] sm:text-base font-lexendDeca">
             On March 9, 2021, MBworkz began its journey from humble beginnings.
             We started as a small shop, as operators of Caravan Garage, where we
