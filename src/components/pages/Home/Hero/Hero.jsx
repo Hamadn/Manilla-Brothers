@@ -11,11 +11,11 @@ function Hero() {
         <h2 className="text-center font-stalinist text-white text-[31px] sm:text-[46px] lg:text-[66px] md:text-[44px] uppercase drop-shadow-neonWhite pb-2">
           Autoworks
         </h2>
-        <p className="text-center font-lexendDeca text-2xl md:text-[23px] lg:text-2xl text-white mb-24">
+        <p className="text-center font-lexendDeca text-base sm:text-[16px] md:text-[23px] lg:text-2xl text-white mb-24">
           Trusted auto experts. Unbeatable prices. <br /> Your car deserves the best 
           care — choose us!
         </p>
-        <Button className="flex gap-2 uppercase bg-primaryBg font-lexendDeca lg:text-xl h-[40px] w-[350px] lg:w-[460px] md:width-[300px] rounded-md">
+        <Button className="flex gap-2 uppercase bg-primaryBg font-lexendDeca text-sm lg:text-xl h-[40px] w-[350px] lg:w-[460px] md:w-[300px] rounded-md transition-all duration-500 ease-in-out hover:scale-[1.06] hover:shadow-glow">
           <PhoneCall />
           <Link to={"/bookings"}>Book an Appointment Now</Link>
         </Button>

@@ -9,21 +9,21 @@ function Features() {
     <section className="relative bg-features-pattern bg-bottom bg-opacity-20 w-full h-full p-16 bg-cover flex flex-col justify-center items-center">
       <div className="absolute inset-0 bg-white bg-opacity-80 z-10"></div>
       <div className="z-20 w-full flex flex-row max-w-[120rem] justify-center items-center relative">
-        <span>
+        <span className="hidden sm:block mb-2 sm:mr-2">
           <img
             src={rectangleBlue}
             alt="rectangle"
             className="-scale-x-100 w-[180px]"
           />
         </span>
-        <span className="text-xl text-center lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
+        <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
           Why choose us
         </span>
-        <span>
+        <span className="hidden sm:block mb-2 sm:mr-2">
           <img src={rectangleBlue} alt="rectangle" className="w-[180px]" />
         </span>
       </div>
-      <span className="text-2xl lg:text-5xl text-black uppercase block drop-shadow-neonWhite font-daysOne text-center z-20 relative">
+      <span className="text-[20px] sm:text-2xl lg:text-5xl text-black uppercase block drop-shadow-neonWhite font-daysOne text-center z-20 relative">
         Rev up your ride with Manila Brothers!
       </span>
       <div className="relative max-w-[120rem]">
@@ -33,10 +33,10 @@ function Features() {
               <img
                 src={priceTag}
                 alt="pricetag"
-                className="border-8 w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quality on a Budget
                 </h3>
               </div>
@@ -45,10 +45,10 @@ function Features() {
               <img
                 src={techniciansImg}
                 alt="car"
-                className="border-8 w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Skilled Technicians
                 </h3>
               </div>
@@ -57,10 +57,10 @@ function Features() {
               <img
                 src={hourglassImg}
                 alt="wrench"
-                className="border-8 w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Quick Turnaround
                 </h3>
               </div>
@@ -69,10 +69,10 @@ function Features() {
               <img
                 src={satisfactionImg}
                 alt="brain"
-                className="border-8 w-56 border-black p-2"
+                className="border-8 w-32 sm:w-40 md:w-56 border-black p-2"
               />
               <div className="w-72">
-                <h3 className="text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
+                <h3 className="text-[16px] sm:text-lg lg:text-2xl font-bold font-lexendDeca text-black mt-2 md:mt-10">
                   Guaranteed Satisfaction
                 </h3>
               </div>

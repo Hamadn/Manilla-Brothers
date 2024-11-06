@@ -12,17 +12,17 @@ function Gallery() {
     <>
       <div className="bg-darkRed text-white flex flex-col justify-center items-center py-24">
         <div className="w-full flex flex-row justify-center items-center">
-          <span>
+          <span className="hidden sm:block mb-2 sm:mr-2">
             <img
               src={rectangleBlue}
               alt="rectangleBlue"
               className="-scale-x-100 w-[90px] md:w-[100px]"
             />
           </span>
-          <span className="text-sm lg:text-xl text-mainBlue uppercase font-daysOne mx-1 drop-shadow-neonBlue">
+          <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue uppercase font-daysOne mx-1 drop-shadow-neonBlue">
             Featured Works
           </span>
-          <span>
+          <span className="hidden sm:block mb-2 sm:mr-2">
             <img
               src={rectangleBlue}
               alt="rectangle2"

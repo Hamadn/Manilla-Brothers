@@ -59,7 +59,7 @@ function Contact() {
                     className="-scale-x-100"
                   />
                 </span>
-                <span className="text-5xl text-white uppercase font-daysOne mx-5">
+                <span className="text-[20px] md:text-5xl text-white uppercase font-daysOne mx-5">
                   Contact Us
                 </span>
                 <span>
@@ -68,7 +68,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex justify-center items-center text-center p-3 mb-20">
-              <p className="font-lexendDeca text-white text-xl">
+              <p className="font-lexendDeca text-white text-[16px] md:text-xl">
                 We love hearing from our customers. Feel free to share your
                 experience or <br /> ask any questions you may have.
               </p>
@@ -87,7 +87,7 @@ function Contact() {
                         <div className="grid w-full items-center gap-1.5">
                           <Input
                             placeholder="Your Name"
-                            className="text-base font-lexendDeca"
+                            className="text-[14px] md:text-base font-lexendDeca"
                             type="text"
                             name="name"
                             required
@@ -97,7 +97,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Phone Number"
-                          className="text-base font-lexendDeca"
+                          className="text-[14px] md:text-base font-lexendDeca"
                           type="tel"
                           name="tel"
                           required
@@ -106,7 +106,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Input
                           placeholder="Subject"
-                          className="text-base font-lexendDeca"
+                          className="text-[14px] md:text-base font-lexendDeca"
                           type="text"
                           name="subject"
                           required
@@ -115,7 +115,7 @@ function Contact() {
                       <div className="grid w-full items-center gap-1.5">
                         <Textarea
                           name="message"
-                          className="text-base font-lexendDeca"
+                          className="text-[14px] md:text-base font-lexendDeca"
                           placeholder="Message"
                           required
                         ></Textarea>

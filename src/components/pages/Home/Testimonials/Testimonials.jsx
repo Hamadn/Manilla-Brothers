@@ -47,17 +47,17 @@ function Testimonials() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-20 text-left">
             <div className="flex items-center">
-              <span className="text-3xl uppercase font-daysOne text-mainBlue drop-shadow-neonBlue">
+              <span className="text-[18px] sm:text-3xl uppercase font-daysOne text-mainBlue drop-shadow-neonBlue">
                 Client Testimonials
               </span>
-              <span>
+              <span className="hidden sm:block">
                 <img
                   src={rectangleBlue}
                   className="w-[150px] drop-shadow-neonBlue"
                 />
               </span>
             </div>
-            <h2 className="font-daysOne text-white text-4xl uppercase">
+            <h2 className="font-daysOne text-white text-[20px] sm:text-4xl uppercase">
               Hear it straight from the source!
             </h2>
           </div>

@@ -17,13 +17,12 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-s text-white font-lexendDeca">
-                Trusted by certified car experts, we deliver top-quality service
-                at unbeatable prices. Experience the care your car deserves with
-                us!
+                Trusted auto experts. Unbeatable prices. <br /> Your car deserves the best 
+                care — choose us!
               </p>
 
-              <h2 className="text-white text-xl mt-4 font-daysOne">
-                Follow Us
+              <h2 className="text-white text-[18px] sm:text-xl mt-4 font-daysOne">
+                FOLLOW US
               </h2>
               <img src={rectangle} alt="rectangle" className="mt-5" />
               <ul className="mt-[25px] flex gap-6">
@@ -55,7 +54,7 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 gap-9 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
               <div>
-                <p className="font-[1.25rem] text-white font-daysOne uppercase">
+                <p className="text-[18px] sm:font-[1.25rem] text-white font-daysOne uppercase">
                   Links
                 </p>
                 <img src={rectangleTwo} alt="rectangleTwo" className="mt-5" />
@@ -64,7 +63,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <NavLink
                       to=""
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
+                      className="text-white font-lexendDeca text-[16px] sm:text-[1.125rem] transition hover:opacity-75"
                     >
                       Home
                     </NavLink>
@@ -73,7 +72,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <a
                       href="/about"
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
+                      className="text-white font-lexendDeca text-[16px] sm:text-[1.125rem] transition hover:opacity-75"
                     >
                       About
                     </a>
@@ -82,7 +81,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <a
                       href="/services"
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
+                      className="text-white font-lexendDeca text-[16px] sm:text-[1.125rem] transition hover:opacity-75"
                     >
                       Services
                     </a>
@@ -91,7 +90,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <a
                       href="/gallery"
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
+                      className="text-white font-lexendDeca text-[16px] sm:text-[1.125rem] transition hover:opacity-75"
                     >
                       Gallery
                     </a>
@@ -100,7 +99,7 @@ const Footer = () => {
                   <li className="mb-4">
                     <a
                       href="/bookings"
-                      className="text-white font-lexendDeca text-[1.125rem] transition hover:opacity-75"
+                      className="text-white font-lexendDeca text-[16px] sm:text-[1.125rem] transition hover:opacity-75"
                     >
                       Bookings
                     </a>
@@ -109,27 +108,27 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-[1.25rem] text-white font-daysOne uppercase">
+                <p className="text-[18px] sm:font-[1.25rem] text-white font-daysOne uppercase">
                   Contact Info
                 </p>
 
                 <img src={rectangleTwo} alt="rectangleTwo" className="mt-5" />
 
                 <ul className="mt-[50px] text-sm">
-                  <li className="mb-9 flex text-white font-lexendDeca text-[1.125rem]">
+                  <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <Phone className="mr-3" /> 052 304 1850
                   </li>
 
-                  <li className="mb-9 flex text-white font-lexendDeca text-[1.1rem]">
+                  <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <Mail className="mr-3" /> mnlabrosauto@gmail.com
                   </li>
 
-                  <li className="mb-9 flex text-white font-lexendDeca text-[1.125rem]">
+                  <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <Clock9 className="mr-3" /> Monday-Sunday: 8-AM - 8PM <br />
                     Friday: Closed
                   </li>
 
-                  <li className="flex text-white font-lexendDeca text-[1.125rem]">
+                  <li className="flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <MapPin className="mr-3" />
                     <Link to={"https://maps.app.goo.gl/372NjKUS7apMyNHJ7"}>
                       Warehouse No. 2 21st Street - Al <br /> Qusais Industrial
@@ -141,7 +140,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <p className="font-[1.25rem] text-white font-daysOne uppercase">
+                <p className="text-[18px] sm:font-[1.25rem] text-white font-daysOne uppercase">
                   Location
                 </p>
                 <img src={rectangle} alt="rectangle" className="mt-5" />

@@ -7,10 +7,10 @@ function Cta() {
       <div className="flex flex-col-reverse md:flex-row md:h-[485px] relative">
         <div className="relative z-[1] bg-darkRed text-white place-content-center md:w-[50%] p-20 md:mr-4 md:before:content-[''] md:before:absolute md:before:top-0 md:before:w-full md:before:h-full md:before:bg-darkRed md:before:transform md:before:-skew-x-[9deg] md:before:z-[1]">
           <div className="text-center md:text-left relative z-[2]">
-            <h1 className="text-[2.1875em] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
+            <h1 className="text-[20px] sm:text-[1.5em] lg:text-[2.5em] font-daysOne uppercase pb-2">
               We Provide casa quality <br /> service.
             </h1>
-            <p className="font-lexendDeca">
+            <p className="font-lexendDeca text-sm sm:text-base">
               Visit us today and trust our experts to take care of your car. 
               With Manila <br />Brothers Autoworks, you can drive confidently knowing 
               your vehicle is in great hands!

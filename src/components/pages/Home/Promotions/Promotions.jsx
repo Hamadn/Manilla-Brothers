@@ -15,7 +15,7 @@ function Promotions() {
                 className="-scale-x-100 w-[120px]"
               />
             </span>
-            <span className="text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
+            <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
               Promotions
             </span>
             <span>
@@ -37,7 +37,7 @@ function Promotions() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
                 <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                  <h2 className="text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 ">
+                  <h2 className="text-base sm:text-[16px] lg:text-xl text-white font-bold font-lexendDeca mb-2">
                     Stay Tuned for Exciting Offers!
                   </h2>
                   <p className=" text-xs text-white font-lexendDeca">
@@ -48,7 +48,7 @@ function Promotions() {
               </div>
             </div>
           </div>
-          <p className="text-primaryBg font-lexendDeca drop-shadow-neonYellow mt-20 text-center underline">
+          <p className="text-primaryBg font-lexendDeca drop-shadow-neonYellow mt-20 text-center underline text-[14px] sm:text-base">
             <Link to="/services">See all promotions&gt;</Link>
           </p>
         </section>

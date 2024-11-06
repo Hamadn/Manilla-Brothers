@@ -15,15 +15,15 @@ function Home() {
       <Hero />
       <Info />
       <Cta />
-      <hr className="drop-shadow-neonRed shadow-glowRed bg-mainRed border-none h-[2px]" />
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
       <Promotions />
-      <hr className="drop-shadow-neonRed shadow-glowRed bg-mainRed border-none h-[2px]" />
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
       <About />
       <Features />
       <Testimonials />
-      <hr className="drop-shadow-neonRed shadow-glowRed bg-mainRed border-2 h-[2px]" />
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
       <Works />
-      <hr className="drop-shadow-neonRed shadow-glowRed border-2 border-white h-[4px]" />
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
     </>
   );
 }

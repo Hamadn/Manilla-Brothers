@@ -14,13 +14,13 @@ export default function ReservationPage() {
           />
           <div className="absolute bg-[rgba(21,21,27,0.80)] h-[275px] md:h-[312px] lg:h-[375px] w-full flex flex-row justify-center items-center">
             <span>
-              <img src={rectangle} alt="rectangle" className="-scale-x-100" />
+              <img src={rectangle} alt="rectangle" className="-scale-x-100 w-[80px] sm:w-[100px] md:w-[120px]" />
             </span>
-            <span className="text-5xl text-white uppercase font-daysOne mx-5">
+            <span className="text-[20px] sm:text-5xl text-white uppercase font-daysOne mx-5">
               Bookings
             </span>
             <span>
-              <img src={rectangle} alt="rectangle" />
+              <img src={rectangle} alt="rectangle" className="w-[80px] sm:w-[100px] md:w-[120px]" />
             </span>
           </div>
         </div>
