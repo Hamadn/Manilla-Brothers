@@ -172,6 +172,14 @@ const Header = () => {
                         Bookings
                       </span>
                     </NavLink>
+                    <NavLink
+                      to="/contact"
+                      className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-mainRed"
+                    >
+                      <span className="ml-3 text-base font-medium text-white font-lexendDeca uppercase">
+                        Contact Us
+                      </span>
+                    </NavLink>
                   </nav>
                 </div>
               </div>
