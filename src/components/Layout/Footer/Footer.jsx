@@ -116,11 +116,17 @@ const Footer = () => {
 
                 <ul className="mt-[50px] text-sm">
                   <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
-                    <Phone className="mr-3" /> 052 304 1850
+                    <Phone className="mr-3" />
+                    <a href="tel:0523041850" className="text-white">
+                      052 304 1850
+                    </a>
                   </li>
 
                   <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
-                    <Mail className="mr-3" /> mnlabrosauto@gmail.com
+                    <Mail className="mr-3" />
+                    <a href="mailto:mnlabrosauto@gmail.com" className="text-white">
+                      mnlabrosauto@gmail.com
+                    </a>
                   </li>
 
                   <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
