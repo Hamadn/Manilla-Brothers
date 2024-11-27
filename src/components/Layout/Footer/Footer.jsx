@@ -17,8 +17,8 @@ const Footer = () => {
               </div>
 
               <p className="mt-4 max-w-s text-white font-lexendDeca">
-                Trusted auto experts. Unbeatable prices. <br /> Your car deserves the best 
-                care — choose us!
+                Trusted auto experts. Unbeatable prices. <br /> Your car
+                deserves the best care — choose us!
               </p>
 
               <h2 className="text-white text-[18px] sm:text-xl mt-4 font-daysOne">
@@ -124,7 +124,10 @@ const Footer = () => {
 
                   <li className="mb-9 flex text-white font-lexendDeca text-[16px] sm:text-[1.125rem]">
                     <Mail className="mr-3" />
-                    <a href="mailto:mnlabrosauto@gmail.com" className="text-white">
+                    <a
+                      href="mailto:mnlabrosauto@gmail.com"
+                      className="text-white"
+                    >
                       mnlabrosauto@gmail.com
                     </a>
                   </li>

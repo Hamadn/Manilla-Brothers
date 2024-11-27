@@ -8,8 +8,12 @@ import About from "./About/About";
 import Features from "./Features/Features";
 import Testimonials from "./Testimonials/Testimonials";
 import Works from "./Works/Works";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Hero />
