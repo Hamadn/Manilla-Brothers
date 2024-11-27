@@ -17,59 +17,7 @@ function Services() {
   }, []);
   return (
     <>
-      {/*promotions section*/}
-      <div className="bg-navyBlue flex flex-col justify-center items-center py-24">
-        <div className="w-full flex flex-row justify-center items-center">
-          {" "}
-          {/*title container*/}
-          <span>
-            <img
-              src={rectangleBlue}
-              alt="rectangle"
-              className="-scale-x-100 w-[120px]"
-            />
-          </span>
-          <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
-            {" "}
-            {/*title text*/}
-            Promotions
-          </span>
-          <span>
-            <img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
-          </span>
-        </div>
-
-        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center">
-          {" "}
-          {/*description text*/}
-          DRIVE INTO IRRESISTIBLE PROMOS!
-        </span>
-
-        {/*promo container*/}
-        <div className="flex flex-wrap lg:flex-row justify-center items-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10 w-4/5 lg:w-5/6">
-          <div className="lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
-            <img
-              src={painting}
-              alt="acWorks"
-              className="w-full h-64 object-cover"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
-              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
-                <h2 className="text-[16px] sm:text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 text-center">
-                  Stay Tuned for Exciting Offers!
-                </h2>
-                <p className="text-xs text-white font-lexendDeca text-center">
-                  We’re preparing great deals for your car. Check back soon for
-                  special offers!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/*services section*/}
-      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
       <div className="flex flex-col justify-center items-center py-16">
         <div className="w-full flex flex-row justify-center items-center">
           <span>
@@ -207,6 +155,57 @@ function Services() {
           </span>
           <Link to={"/bookings"}>BOOK AN APPOINTMENT NOW</Link>
         </Button>
+      </div>
+      {/*promotions section*/}
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
+      <div className="bg-navyBlue flex flex-col justify-center items-center py-24">
+        <div className="w-full flex flex-row justify-center items-center">
+          {" "}
+          {/*title container*/}
+          <span>
+            <img
+              src={rectangleBlue}
+              alt="rectangle"
+              className="-scale-x-100 w-[120px]"
+            />
+          </span>
+          <span className="text-[18px] sm:text-xl lg:text-3xl text-mainBlue drop-shadow-neonBlue uppercase font-daysOne mx-1">
+            {" "}
+            {/*title text*/}
+            Promotions
+          </span>
+          <span>
+            <img src={rectangleBlue} alt="rectangle" className=" w-[120px]" />
+          </span>
+        </div>
+
+        <span className="text-xl lg:text-5xl text-white uppercase font-daysOne text-center">
+          {" "}
+          {/*description text*/}
+          DRIVE INTO IRRESISTIBLE PROMOS!
+        </span>
+
+        {/*promo container*/}
+        <div className="flex flex-wrap lg:flex-row justify-center items-center gap-x-10 gap-y-12 md:gap-x-8 md:gap-y-10 mt-10 w-4/5 lg:w-5/6">
+          <div className="lg:flex w-[290px] xl:w-[370px] 2xl:w-[400px] relative">
+            <img
+              src={painting}
+              alt="acWorks"
+              className="w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
+              <div className="absolute inset-x-2 bg-black bg-opacity-50 flex flex-col justify-center px-4 py-2 bottom-2">
+                <h2 className="text-[16px] sm:text-lg lg:text-xl text-white font-bold font-lexendDeca mb-2 text-center">
+                  Stay Tuned for Exciting Offers!
+                </h2>
+                <p className="text-xs text-white font-lexendDeca text-center">
+                  We’re preparing great deals for your car. Check back soon for
+                  special offers!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
     </>
