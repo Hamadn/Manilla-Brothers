@@ -157,8 +157,8 @@ function Services() {
         </Button>
       </div>
       {/*promotions section*/}
-      <hr className="drop-shadow-neonBlue shadow-glowBlue border-none h-[2px]" />
-      <div className="bg-darkRed flex flex-col justify-center items-center py-24">
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
+      <div className="bg-darkBlue flex flex-col justify-center items-center py-24">
         <div className="w-full flex flex-row justify-center items-center">
           {" "}
           {/*title container*/}
@@ -207,7 +207,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <hr className="drop-shadow-neonBlue shadow-glowBlue border-none h-[2px]" />
+      <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
     </>
   );
 }
