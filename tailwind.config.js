@@ -46,6 +46,13 @@ export default {
           "0 0 10px #fd2611",
           "0 0 20px #fd2611",
         ],
+        glowBlue: [
+          "0 0 2px #4066B9",
+          "inset 0 0 2px #4066B9",
+          "0 0 5px #4066B9",
+          "0 0 10px #4066B9",
+          "0 0 20px #4066B9",
+        ],
         glowWhite: [
           "0 0 2px #ffffff",
           "inset 0 0 2px #ffffff",
