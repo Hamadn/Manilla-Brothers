@@ -158,7 +158,7 @@ function Services() {
       </div>
       {/*promotions section*/}
       <hr className="drop-shadow-neonRed shadow-glowRed border-none h-[2px]" />
-      <div className="bg-navyBlue flex flex-col justify-center items-center py-24">
+      <div className="bg-darkBlue flex flex-col justify-center items-center py-24">
         <div className="w-full flex flex-row justify-center items-center">
           {" "}
           {/*title container*/}
