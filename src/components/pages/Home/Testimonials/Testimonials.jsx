@@ -222,7 +222,7 @@ function Testimonials() {
               <hr />
               <div className="mt-4">
                 <p className="text-sm text-center leading-relaxed font-lexendDeca">
-                  "Very professional and skilled mechanics they have, reasonable price, and I'm very satisfied with
+                  "Very professional and skilled mechanics they have, super reasonable price, and I'm very satisfied with
                   work they have done to my car." <br />— John Mhay Cortez
                 </p>
               </div>
