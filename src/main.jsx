@@ -14,6 +14,7 @@ import Contact from "./components/pages/Contact/Contact";
 import Bookings from "./components/pages/Bookings/Bookings";
 import Services from "./components/pages/Services/Services";
 import Gallery from "./components/pages/Gallery/Gallery.jsx";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +31,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>,
 );

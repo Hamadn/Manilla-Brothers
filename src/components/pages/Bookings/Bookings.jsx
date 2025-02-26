@@ -1,10 +1,18 @@
 import bookBackground from "/images/bookBackground.png";
 import rectangle from "/images/rectangle.svg";
 import ReactTidyCal from "react-tidycal";
+import { Helmet } from "react-helmet-async"
 
 export default function ReservationPage() {
   return (
     <>
+    <Helmet>
+      <title>Bookings | Manila Brothers Autoworks Filipino Garage</title>
+      <meta
+          name="description"
+          content="Book an appointment with Manila Brothers Autoworks Filipino Garage in Dubai for top-quality auto repair and maintenance services."
+        />
+    </Helmet>
       <div className="flex flex-col">
         <div className="flex justify-center relative text-center">
           <img
