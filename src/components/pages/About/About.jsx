@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async"
 
 function About() {
   useEffect(() => {
@@ -6,6 +7,9 @@ function About() {
   }, []);
   return (
     <>
+    <Helmet>
+      <title>About Us | Manila Brothers Autoworks Filipino Garage</title>
+    </Helmet>
       <div className="bg-about-pattern md:h-[100vh] h-max bg-cover bg-rgbaLightRed bg-no-repeat bg-blend-overlay grid place-items-center">
         <div className="grid place-content-center bg-darkRed w-[80%] text-white p-8 md:p-20 m-4 h-auto">
           <header className="font-daysOne text-[20px] sm:text-[2.1875em] lg:text-[2.5em] pb-2">

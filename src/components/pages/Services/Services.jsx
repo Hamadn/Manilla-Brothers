@@ -10,6 +10,7 @@ import computerDiagnostics from "/images/Computer Diagnostics.png";
 import { Button } from "../../Button";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async"
 
 function Services() {
   useEffect(() => {
@@ -17,6 +18,13 @@ function Services() {
   }, []);
   return (
     <>
+    <Helmet>
+      <title>Services | Manila Brothers Autoworks Filipino Garage</title>
+      <meta
+          name="description"
+          content="Explore our expert auto repair and maintenance services at Manila Brothers Autoworks in Dubai. From paintwork to mechanical repairs, we’ve got you covered!"
+        />
+    </Helmet>
       {/*services section*/}
       <div className="flex flex-col justify-center items-center py-16">
         <div className="w-full flex flex-row justify-center items-center">

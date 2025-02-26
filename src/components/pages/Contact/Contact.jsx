@@ -4,6 +4,7 @@ import mapImg from "/images/map.png";
 import rectangle from "/images/rectangle.svg";
 import { Textarea } from "@/components/ui/textarea";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet-async"
 
 function Contact() {
   const onSubmit = async (event) => {
@@ -47,6 +48,13 @@ function Contact() {
   };
   return (
     <>
+    <Helmet>
+      <title>Contact Us | Manila Brothers Autoworks Filipino Garage</title>
+      <meta
+          name="description"
+          content="Get in touch with Manila Brothers Autoworks Filipino Garage in Dubai. Contact us for inquiries, service bookings, and expert automotive assistance."
+        />
+    </Helmet>
       <div className="min-h-[100vh] bg-contact-pattern bg-cover w-full">
         <div className="flex w-full flex-col md:gap-20 md:p-20 lg:flex-row bg-rgbaRed justify-center lg:mx-auto min-h-[100vh]">
           <div className="flex w-full max-w-[120rem] flex-col p-5 lg:justify-center min-h-[100vh]">
